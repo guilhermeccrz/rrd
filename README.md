@@ -4,9 +4,9 @@
 
 ### Instalação
 
-Para rodar o projeto deve se baixar o node aqui e instalar: https://nodejs.org/en/download/
+Para rodar o projeto baixar o NodeJS: https://nodejs.org/en/download/
 
-Depois disso executar os comando dentro da pasta do projeto:
+Em seguida executar os comandos dentro da pasta do projeto pelo terminal/prompt:
 ```sh
 $ sudo npm install
 $ sudo npm install -g gulp@3.9.1
