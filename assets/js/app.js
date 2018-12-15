@@ -45,6 +45,23 @@ $(document).ready(function(){
   		autoplaySpeed:9000,
   	});
 
+    $('.carr-home-04 .wrap').slick({
+      cssEase:'cubic-bezier(0.175, 0.885, 0.320, 1.275)',
+      appendArrows: '.carr-home-04 .control',
+      arrows:true,
+      autoplay:true,
+      autoplaySpeed:9000,
+    });
+
+    $('.carr-home-05').slick({
+      slidesToShow: 5,
+      cssEase:'cubic-bezier(0.175, 0.885, 0.320, 1.275)',
+      appendArrows: '.session-blog .control',
+      arrows:true,
+      centerPadding: '5%',
+      infinite:false
+    });
+
   	$('.control .slick-prev').addClass('arrow-custom arrow-left-custom');
   	$('.control .slick-next').addClass('arrow-custom arrow-right-custom');
 });

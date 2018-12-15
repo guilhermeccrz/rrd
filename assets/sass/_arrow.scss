@@ -53,6 +53,36 @@
   display: block;
 }
 
+.arrow-right-circle {
+  position: relative;
+}
+.arrow-right-circle::after {
+  width: 0; 
+  height: 0; 
+  border-top: 7px solid transparent;
+  border-bottom: 7px solid transparent;
+  content:' ';
+  border-left: 7px solid #fff;
+  max-width: 100px;
+  position: absolute;
+  top: 0.5em;
+  left: 0.7em;
+  padding-right: 10px;
+  display: block;
+}
+
+.arrow-right-circle::before {
+  width: 30px; 
+  height: 30px; 
+  border-radius: 50px;
+  content:' ';
+  position: absolute;
+  background-color: #202B4B;
+  top: 0em;
+  left:0;
+  display: block;
+}
+
 .arrow-custom {
   position: absolute;
   top: 50%;
