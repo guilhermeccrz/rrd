@@ -77,7 +77,7 @@ div.session-green {
     background-color: #fff;
     box-shadow: 10px 10px 51px -15px rgba(0,0,0,0.2);
     position: absolute;
-    top: -3.6em;
+    top: -16.6em;
     right: 2.7em;
     overflow: hidden;
 
@@ -331,7 +331,7 @@ div.carr-home-03 {
 .session-blog {
   background-color: #ecebe8;
   position: relative;
-  min-height: 500px;
+  min-height: 700px;
   float:left;
   width: 100%;
 
@@ -339,8 +339,11 @@ div.carr-home-03 {
     position: absolute!important;
     bottom: 0;
     .control {
+
     }
   }
+
+  
 
   .container {
     position: relative;
@@ -409,71 +412,84 @@ div.carr-home-03 {
   }
 }
 
-.session-arr {
-    background-color: #ecebe8;
-    position: relative;
-    padding-top: 10.0em;
-    padding-bottom: 50.0em;
-    float:left;
-    width: 100%;
+.sesseion-arr {
+  background: #ecebe8 url(/public/assets/img/home/img-arr.png) no-repeat bottom center;
+  min-height: 503px;
+  float: left;
+  width: 100%;
+}
+.text-arr {
+  font-size: 18px;
+  color: #202B4B;
+  max-width: 1026px;
+  max-height: 850px;
+  padding-left: 23.8em;
+  margin-top: -29px;
+}
+.text-arr span {
+  font-size: 80px;
+  font-weight: bold;
 }
 
+.text-donnelley {
+  padding-top: 0.3em;
+  min-width: 626px;
+  font-size: 18px;
+  color: #202B4B;
+  padding-left: 23.9em;
+  padding-right: 22.4em;
+  font-weight: 400;
+}
+
+.text-donnelley a{
+  display: block;
+  clear: both;
+  font-size: 18px;
+  font-weight: 300;
+  color: #202B4B;
+  padding:2em 0 1.0em 0;
+}
+
+
+.session-conecta {
+    background-color: #ecebe8;
+    position: relative;
+    min-height: 650px;
+    float:left;
+    width: 100%;
+
+  .text-conecta {
+    font-size: 60px;
+    color: #202B4B;
+    font-weight: bold;
+    max-width: 1297px;
+    line-height: 1.0;
+    padding-left: 1.8em;
+  }
+}
+
+.session-conecta a{
+  display: block;
+  clear: both;
+  font-size: 18px;
+  font-weight: 300;
+  color: #202B4B;
+  padding:2em 0 1.0em 19em;
+}
 
 
 .sidebar {
   position: absolute;
   display: block;
-  right: 2.5em;
+  right: 3em;
   top: 8em;
   z-index: 3;
 
   div {
-    padding-top: 2em;
-  }
-
-  a {
-    background-position: center center!important;
-    margin: 1.2em 0;
-    cursor: pointer;
-    transition:$transition-style-01;
-  }
-
-  &.dark {
-    .face { background-image: url('../img/home/iconface1.png') ;}
-    .linkedin { background-image: url('../img/home/iconlinkedin1.png');}
-    .youtube { background-image: url('../img/home/iconyoutube1.png') ;}
-    .instagram { background-image: url('../img/home/iconinsta1.png') ;}
+    padding-top: 1em;
   }
 
   .face {
-    background: url('../img/home/iconface.png') no-repeat;
-    width: 25px;
-    height: 25px;
-    background-size: contain;
-    display: block;
-  }
-
-  .linkedin {
-    background: url('../img/home/iconlinkedin.png') no-repeat;
-    width: 25px;
-    height: 25px;
-    background-size: contain;
-    display: block;
-  }
-
-  .youtube {
-    background: url('../img/home/iconyoutube.png') no-repeat;
-    width: 25px;
-    height: 25px;
-    background-size: contain;
-    display: block;
-  }
-
-  .instagram {
-    background: url('../img/home/iconinsta.png') no-repeat;
-    width: 25px;
-    height: 25px;
-    background-size: contain;
-    display: block;
+    padding-left: 0.3em;
   }
 }

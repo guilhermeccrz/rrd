@@ -45,6 +45,9 @@ footer {
         a.link {
             color: #202B4B;
         }
+        ul{
+            min-width: 250px;
+        }
         li {
             list-style: none;
         }
@@ -73,6 +76,8 @@ footer {
             font-size: 14px;
             color: #333333;
             letter-spacing: 0.4px;
+            max-width: 648px;
+            line-height: 0.9;
         }
     }
 
