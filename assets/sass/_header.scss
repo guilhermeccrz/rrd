@@ -142,11 +142,21 @@ header {
     right: 0px;
     top:0px;
     max-height: 93px;
-    padding: 33px 0px; 
+    padding: 33px 0px;
+
+    &:hover {
+      .btn-icon {
+         background-image: url('../img/home/busca.png')!important;
+      }
+    } 
+
+    &.dark {
+      .btn-icon {
+         background-image: url('../img/home/buscaBranca.png');
+      }
+    }
 
     &.opened {
-      
-
       .form-search {
         right: 0px;
       }
@@ -159,6 +169,8 @@ header {
     }
 
     .btn-icon {
+
+      transition:$transition-style-01;
       width: 30px;
       height: 30px;
       background: url('../img/home/busca.png');

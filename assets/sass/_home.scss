@@ -339,11 +339,8 @@ div.carr-home-03 {
     position: absolute!important;
     bottom: 0;
     .control {
-
     }
   }
-
-  
 
   .container {
     position: relative;
@@ -426,15 +423,57 @@ div.carr-home-03 {
 .sidebar {
   position: absolute;
   display: block;
-  right: 1.7em;
-  top: 10em;
+  right: 2.5em;
+  top: 8em;
   z-index: 3;
 
   div {
     padding-top: 2em;
   }
 
+  a {
+    background-position: center center!important;
+    margin: 1.2em 0;
+    cursor: pointer;
+    transition:$transition-style-01;
+  }
+
+  &.dark {
+    .face { background-image: url('../img/home/iconface1.png') ;}
+    .linkedin { background-image: url('../img/home/iconlinkedin1.png');}
+    .youtube { background-image: url('../img/home/iconyoutube1.png') ;}
+    .instagram { background-image: url('../img/home/iconinsta1.png') ;}
+  }
+
   .face {
-    padding-left: 0.5em;
+    background: url('../img/home/iconface.png') no-repeat;
+    width: 25px;
+    height: 25px;
+    background-size: contain;
+    display: block;
+  }
+
+  .linkedin {
+    background: url('../img/home/iconlinkedin.png') no-repeat;
+    width: 25px;
+    height: 25px;
+    background-size: contain;
+    display: block;
+  }
+
+  .youtube {
+    background: url('../img/home/iconyoutube.png') no-repeat;
+    width: 25px;
+    height: 25px;
+    background-size: contain;
+    display: block;
+  }
+
+  .instagram {
+    background: url('../img/home/iconinsta.png') no-repeat;
+    width: 25px;
+    height: 25px;
+    background-size: contain;
+    display: block;
   }
 }

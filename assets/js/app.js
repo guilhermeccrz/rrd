@@ -21,13 +21,28 @@ $(document).ready(function(){
 	});
 
 	//CARROUSEL
-	$('.carr-home-01').slick({
-  		focusOnSelect: true,
-  		autoplay:true,
-  		autoplaySpeed:3000,
-  		cssEase:'cubic-bezier(0.175, 0.885, 0.320, 1.275)',
-  		arrows:false
-  	});
+	  $('.carr-home-01').slick({
+    		focusOnSelect: true,
+    		autoplay:true,
+    		autoplaySpeed:3000,
+    		cssEase:'cubic-bezier(0.175, 0.885, 0.320, 1.275)',
+    		arrows:false
+    	});
+
+    $(".carr-home-01").on("afterChange", function (){
+      var targetCurrent = $('.slick-current');
+      if(targetCurrent.hasClass('dark')){
+
+        $('.search-box').addClass('dark');
+        $('.sidebar').addClass('dark');
+
+      } else {
+
+        $('.search-box').removeClass('dark');
+        $('.sidebar').removeClass('dark');
+
+      }
+    });
 
   	$('.carr-home-02 .wrap').slick({
   		slidesToShow: 3,
