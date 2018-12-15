@@ -1,0 +1,119 @@
+.bg-missao {
+  background-image:url('../img/interna/bg-missao.png') ;
+  padding-bottom: 37em!important;
+  background-repeat: no-repeat;
+  background-position: bottom left;
+}
+
+ .carr-interna-01 {
+    position: relative;
+
+    .container-control {
+      position: absolute;
+      bottom:0em;
+      left: 50%;
+      transform: translate(-50%, 0%);
+      z-index: 3;
+
+
+      .control {
+        bottom:0em;
+        left:50em;
+        z-index: 3;
+      }
+
+    }
+
+    img {
+      float:left;
+      padding-right: 3em;
+    }
+
+    .info {
+      float: left;
+      max-width: 400px;
+
+      h3 {
+        font-size: 30px;
+        font-weight: 800;
+        color:#202B4B;
+      }
+    }
+  }
+
+
+//SÃO 3 BREAKPOINTS QUE VAMOS UTILIZAR
+ // sm: 576px,
+ // lg: 992px,
+ // xl: 1490px
+@media screen and (min-width: 993px) and (max-width: 1489px)  {
+  .session-single-01 {
+    background-size: 100%!important;
+    padding-bottom: 20em!important;
+
+    &.bg-missao {
+      background-image:url('../img/interna/bg-missao-mobile.png')!important;
+    }
+
+    .container {
+      padding: 0 2em!important;
+    }
+
+    .container-info {
+      padding: 0 1.5em!important;
+    }
+
+    .carr-interna-01 img {
+      width: 100%;
+      padding-right: 0;
+    }
+
+    .container-title {
+       margin: 10em auto 4em auto;
+    }
+
+    .info {
+      margin: 5em 0;
+    }
+  }
+}
+
+
+
+@media screen and (min-width: 0px) and (max-width: 992px)  {
+  .session-single-01 {
+    background-size: 100%!important;
+    padding-bottom: 6em!important;
+
+    &.bg-missao {
+      background-image:url('../img/interna/bg-missao-mobile.png')!important;
+    }
+
+    .container {
+      padding: 0 2.2em!important;
+    }
+
+    .container-control {
+      .control {
+        left: initial!important;
+      }
+    }
+
+    .container-info {
+      padding: 0 2.2em!important;
+    }
+
+    .carr-interna-01 img {
+      width: 100%;
+      padding-right: 0;
+    }
+
+    .container-title {
+       margin: 10em auto 4em auto;
+    }
+
+    .info {
+      margin: 5em 0;
+    }
+  }
+}

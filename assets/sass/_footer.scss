@@ -12,7 +12,7 @@ footer {
         font-size: 18px;
         font-weight: bold;
         float: left;
-        padding-left: 5.2em;
+        padding-left: 0em;
 
         p {
             color:#202B4B;
@@ -60,13 +60,19 @@ footer {
         padding-top: 4em;
         
 
-        input {
+        input[type=text] {
             min-width: 280px;
             min-height: 32px;
             color: #202B4B;
             margin-bottom: 10px;
             padding: 0.2em;
         }
+
+        .arrow-right-default {
+            position: relative;
+            left: -2.0em;
+        }
+
         hr {
             min-width: 646px;
             color: #D3D3D3;
@@ -77,9 +83,49 @@ footer {
             color: #333333;
             letter-spacing: 0.4px;
             max-width: 648px;
-            line-height: 0.9;
+            line-height: 1.2;
+            margin-bottom: 0;
         }
     }
 
     
+}
+
+
+@media screen and (min-width: 0px) and (max-width: 992px)  {
+    footer {
+        .news {
+            padding:0;
+           *{
+            max-width: none!important;
+            min-width: unset!important;
+           } 
+        }
+
+        input[type=text]{
+            width: 90%;
+        }
+
+        .footer-content {
+            width: 100%;
+            padding-right: 2.2em;
+        }
+
+        .mini-rrd  {
+            display: none;
+        }
+
+        .mini-contato {
+            width: 100%;
+            float: left;
+            ul {
+                padding: 0;
+                margin: 0;
+                li {
+                    display: block;
+                    text-align: center;
+                }
+            }
+        }
+    }
 }

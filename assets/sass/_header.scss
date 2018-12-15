@@ -8,6 +8,22 @@ header {
   width: 100%;
   overflow: hidden;
 
+  .breadcrumb-x {
+    background-color: #fff;
+    float: left;
+    color:#202B4B;
+    font-size: 16px;
+    font-weight: 400;
+    padding: 45px 2em;
+    line-height: 4px;
+    transition:$transition-style-01;
+    position: relative;
+
+    &.opened {
+      left: -35em;
+    }
+  }
+
   h1 {
     float:left;
     padding: 13px 20px;
@@ -105,13 +121,13 @@ header {
   nav {
      float: left;
      position: relative;
-     left:-900px;
+     margin-left:-900px;
      transition:$transition-style-01;
      z-index: 1;
      background-color: #fff;
 
      &.opened {
-      left: 0;
+      margin-left: 0;
      }
 
     ul {

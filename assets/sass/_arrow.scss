@@ -21,8 +21,33 @@
   height: 0; 
   border-top: 10px solid transparent;
   border-bottom: 10px solid transparent; 
-  
   border-right:10px solid blue; 
+}
+
+.arrow-right-default {
+  width: 20px; 
+  height: 20px; 
+  border:0;
+  background:none;
+
+}
+
+.arrow-right-default::before {
+    width: 0; 
+  height: 0; 
+  border-top: 10px solid transparent;
+  border-bottom: 10px solid transparent;
+  content:' ';
+  border-left: 10px solid #202B4B;
+  max-width: 100px;
+  display:inline-block;
+  position: relative;
+  top: 3px;
+  padding-right: 10px;
+  background:none;
+  cursor:pointer;
+  border-right:0;
+
 }
 
 .arrow-right::before {

@@ -4,10 +4,12 @@ $(document).ready(function(){
 		if($(this).hasClass('opened')){
 			$(this).removeClass('opened');
 			$('header nav').removeClass('opened');
+      $('.breadcrumb-x').removeClass('opened');
 
 		} else {
 			$(this).addClass('opened');
 			$('header nav').addClass('opened');
+      $('.breadcrumb-x').addClass('opened');
 		}
 	});
 
@@ -76,6 +78,14 @@ $(document).ready(function(){
       centerPadding: '5%',
       infinite:false
     });
+
+    $('.carr-interna-01 .wrap').slick({
+      cssEase:'cubic-bezier(0.175, 0.885, 0.320, 1.275)',
+      appendArrows: '.carr-interna-01 .control',
+      arrows:true
+    });
+
+
 
   	$('.control .slick-prev').addClass('arrow-custom arrow-left-custom');
   	$('.control .slick-next').addClass('arrow-custom arrow-right-custom');
