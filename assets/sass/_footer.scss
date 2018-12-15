@@ -5,57 +5,65 @@ footer {
 
     .footer-content{
         min-height: 330px;
-        padding-left: 5.2em;
+        padding-left: 2.2em;
         display: inline-block;
     }
     .mini-rrd {
         font-size: 18px;
         font-weight: bold;
-        color:#202B4B;
         float: left;
-        padding-left: 12.2em;
+        padding-left: 5.2em;
+
+        p {
+            color:#202B4B;
+        }
     }
 
     .linha {
         border-right: 1px solid;
         margin-top: 4em;
         height: 174px;
-        padding-right: 2em;
+        padding-right: 5.5em;
         color: #D3D3D3;
     }
 
     .mini-contato {
-        padding-left: 0.5em;
         padding-top: 4em;
         font-size: 16px;
         display: inline-block; 
+        clear: both;
+
+        a {
+            color:#202B4B;
+            font-weight: 300;
+            font-size: 16px;
+            display: block;
+            line-height: 2.0em;
+            list-style: none;
+        }
+
+        a.link {
+            color: #202B4B;
+        }
+        li {
+            list-style: none;
+        }
     }
-    a {
-        color:#202B4B;
-        font-weight: 300;
-        font-size: 16px;
-        display: block;
-        line-height: 2.0em;
-    }
-    li {
-        list-style: none;
-        display: block;
-        margin:0 .2em;
-    }
+    
     .news {
         font-size: 16px;
         padding-left: 6.9em;
         float: right;
         padding-top: 4em;
+        
 
         input {
             min-width: 280px;
             min-height: 32px;
-            color: #D3D3D3;
+            color: #202B4B;
             margin-bottom: 10px;
+            padding: 0.2em;
         }
-
-
         hr {
             min-width: 646px;
             color: #D3D3D3;
@@ -64,6 +72,7 @@ footer {
         .textolegal{
             font-size: 14px;
             color: #333333;
+            letter-spacing: 0.4px;
         }
     }
 

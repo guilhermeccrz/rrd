@@ -413,55 +413,28 @@ div.carr-home-03 {
 }
 
 .session-arr {
-  background-color: #ecebe8;
-  position: relative;
-  min-height: 500px;
-  padding-top: 10.0em;
-  padding-bottom: 50.0em;
-  float:left;
-  width: 100%;
+    background-color: #ecebe8;
+    position: relative;
+    padding-top: 10.0em;
+    padding-bottom: 50.0em;
+    float:left;
+    width: 100%;
+}
 
-  .session-title {
-    position: absolute;
-    font-size: 80px;
-    font-weight: bold;
-    padding-left: 8.8em;
-    margin-top: -535px;
-  
-  }
 
-  .session-text {
-    position: absolute;
-    font-size: 18px;
-    font-weight: medium;
-    padding-left: 39em;
-    margin-top: -390px;
-    text-align: left;
+
+.sidebar {
+  position: absolute;
+  display: block;
+  right: 1.7em;
+  top: 10em;
+  z-index: 3;
+
+  div {
+    padding-top: 2em;
   }
 
-  .session-button {
-    position: absolute;
-    padding-left: 44em;
-    margin-top: -60px;
-  }
-  a {
-    color:#202B4B;
-    font-weight: 300;
-    font-size: 16px; 
-    list-style: none;
-    padding-left: 4em;
-  }
-  .text-arr {
-    position: absolute;
-    font-size: 60px;
-    font-weight: bold;
-    padding-left: 6em;
-    padding-top: 3em;
-    line-height: 1.2;
-  }
-  .text-arr-button {
-    position: absolute;
-    padding-left: 2.3em;
-    margin-top: 1.5em;
+  .face {
+    padding-left: 0.5em;
   }
 }
