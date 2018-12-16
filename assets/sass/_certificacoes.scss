@@ -1,0 +1,192 @@
+.bg-certificacoes {
+    background-image:url('/public/assets/img/interna/certificacoes.png') ;
+    padding-bottom: 37em!important;
+    background-repeat: no-repeat;
+    background-position: bottom left;
+  }
+  
+  .bg-certificacoes-bolinhas {
+      background: url(/public/assets/img/interna/bolinhascertificacoes.png) no-repeat top left;
+  
+  }
+  
+  .bg-fundo-certificacoes {
+      background-color: #ecebe8;
+      position: relative;
+      min-height: 1000px;
+      float:left;
+      width: 100%;
+  }
+  
+  
+  .carr-interna-03 {
+      position: relative;
+  
+    .certi {
+        position: absolute;
+        font-size: 30px;
+        color: #202B4B;
+        font-weight: bold;
+        padding-left: 12.5em;
+        margin-top: -0.5em;
+    }
+    .sub-certi {
+        position: absolute;
+        font-size: 20px;
+        margin-top: -0.4em;
+    }
+  
+      .certi-sub-title {
+          position: absolute;
+          min-width: 1020px!important;
+          font-size: 18px;
+          color: #202B4B;
+          font-weight: 300;
+      }
+
+      .certi-sub-title span {
+        font-size: 20px;
+        color: #202B4B;
+        font-weight: bold;
+        padding-top: 2em;
+      }
+      .accordion-certificacoes {
+          position: absolute;
+          padding-top: 32em;
+          padding-left: 23.5em;
+      }
+      
+      .text-accordion {
+          max-width: 1000px;
+          font-size: 18px;
+          color: #202B4B;
+          font-weight: 500;
+          padding: 2em;
+      }
+
+      .text-accordion span {
+        font-size: 20px;
+        color: #202B4B;
+        font-weight: bold;
+        padding-top: 2em;
+      }
+      .text-accordion a{
+        font-size: 18px;
+        font-weight: 800;
+        color: #202B4B;
+      }
+
+      .card-body{
+        background: #F8F8F8;
+      }
+      .card-header {
+          background: #fff;
+      }
+      .btn {
+        color: #202B4B;
+        font-weight: bold;
+        font-size: 18px;
+      }
+      .seta-seguranca {
+        padding-left: 46em;
+      }
+      .seta-gestao {
+        padding-left: 48em;
+      }
+      .seta-sustentabilidade {
+        padding-left: 42.5em;
+      }
+}
+
+@media screen and (min-width: 993px) and (max-width: 1489px)  {
+    .session-single-01 {
+      background-size: 100%!important;
+      padding-bottom: 20em!important;
+  
+      &.bg-certificacoes {
+        background-image: none!important;
+      }
+  
+      .container {
+        padding: 0 2em!important;
+      }
+  
+      .container-info {
+        padding: 0 1.5em!important;
+      }
+  
+      .container-title {
+         margin: 10em auto 4em auto;
+      }
+  
+      .info {
+        margin: 5em 0;
+      }
+      .bg-fundo-certificacoes {
+        min-height: 1200px;
+      }
+      .certi {
+        max-width: 800px;
+    }
+    .certi-sub-title {
+        min-width: 750px!important;
+    }
+   
+    .card{
+        max-width: 750px!important;
+    }
+
+    }
+  }
+  
+  
+  
+  @media screen and (min-width: 0px) and (max-width: 992px)  {
+    .session-single-01 {
+      background-size: 100%!important;
+      padding-bottom: 6em!important;
+  
+      &.bg-certificacoes {
+        background-image: none!important;
+      }
+  
+      .container {
+        padding: 0 2.2em!important;
+      }
+  
+      .container-control {
+        .control {
+          left: initial!important;
+        }
+      }
+  
+      .container-info {
+        padding: 0 2.2em!important;
+      }
+  
+      .container-title {
+         margin: 10em auto 4em auto;
+      }
+  
+      .info {
+        margin: 5em 0;
+      }
+      .bg-fundo-certificacoes {
+        min-height: 1800px;
+      }
+      .certi {
+        max-width: 800px;
+    }
+    .certi-sub-title {
+        min-width: 450px!important;
+        text-align: justify;
+    }
+   
+    .card{
+        max-width: 450px!important;
+    }
+    .accordion-certificacoes{
+        margin-top: 10em;
+    }
+  }
+}
