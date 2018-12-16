@@ -535,3 +535,205 @@ div.carr-home-03 {
     display: block;
   }
 }
+
+//SÃO 3 BREAKPOINTS QUE VAMOS UTILIZAR
+ // sm: 576px,
+ // lg: 992px,
+ // xl: 1490px
+@media screen and (min-width: 993px) and (max-width: 1489px)  {
+ div.carr-home-02 {
+  width: 100%;
+ }
+
+ div.carr-home-03 {
+  width: 100%;
+  margin-top: 0px;
+ }
+
+ div.carr-home-04 {
+  .mini-wrap-control {
+    width: 100%;
+    bottom: 1em!important;
+  }
+
+  .mini-wrap {
+    width: 95%;
+  }
+ }
+
+ div.sesseion-arr {
+  .container {
+    width: 100%;
+  }
+
+  .text-arr {
+        padding-left: 3.8em;
+  }
+
+  .text-donnelley {
+    width: 100%;
+    padding-left: 3.9em;
+    padding-right: 2.4em;
+  }
+ }
+
+ div.session-conecta {
+  .text-conecta {
+    font-size: 40px;
+  }
+
+  a {
+        padding: 2em 0 1.0em 12.5em;
+  }
+ }
+}
+
+
+
+@media screen and (min-width: 0px) and (max-width: 992px)  {
+
+  .flutuant-title {
+    display: none;
+  }
+ div.carr-home-01 {
+  width: 100%;
+
+  .container {
+    h1 {
+      font-size: 38px;
+      max-width: 285px;
+    }
+
+    a.arrow-right {
+          margin: 0 1.5em;
+    }
+  }
+ }
+
+ div.carr-home-02 {
+  width: 100%;
+  div.wrap div a {
+    font-size: 16px;
+  }
+ }
+
+ div.carr-home-03 {
+  width: 100%;
+  margin-top: 0px;
+    background-color: #333333;
+
+  .control {
+    width: 70px;
+    right: 0em;
+    top: 6.5em;
+    z-index: 4;
+  }
+
+   .wrap .wrap-custom div {
+      background-color: #333333;
+      position: relative;
+      top: -5px;
+   }
+  
+ }
+
+ div.carr-home-04 {
+  padding-bottom: 0px;
+      margin: 0px auto 198px 0;
+
+  .mini-wrap-control {
+    width: 100%;
+    bottom: 3em !important;
+
+   .control {
+      left: initial!important;
+      right:1.5em!important;
+    }
+  }
+
+  .mini-wrap {
+    width: 95%;
+
+    img {
+      width: 100%;
+      margin-top: 5em;
+    }
+  }
+
+  .info {
+      margin-top: 12.9em;
+      left: 2.2em;
+    h2 {
+      font-size:68px;
+
+      span {
+        font-size: 72px;
+      }
+    }
+    a {
+      top: 30px;
+    }
+  }
+ }
+
+ div.session-blog {
+  .container {
+    padding: 0 2.2em;
+    position: relative;
+    h2.title {
+      font-size:150px;
+      position: relative;
+    }
+
+    a.link {
+      position: absolute;
+      top: 4em;
+      right: 2.2em;
+    }
+  }
+  .slick-list {
+        padding: 0 0 0 0!important;
+    left: 0px!important;
+  }
+ }
+
+ div.sesseion-arr {
+  .container {
+    width: 100%;
+  }
+
+  .text-arr {
+        padding-left: 2.2em;
+  }
+
+  .text-donnelley {
+    width: 100%;
+    padding-left: 2.2em;
+    padding-right: 2.2em;
+    min-width: 0;
+  }
+ }
+
+ div.session-conecta {
+    min-height: 330px;
+    .container {
+    width: 100%;
+    padding: 0 2.2em;
+  }
+  .text-conecta {
+    font-size: 20px;
+    text-align: center;
+    padding-left: 0;
+
+    br {
+      display: none;
+    }
+  }
+
+  a {
+        padding: 2.2em;
+        text-align: center;
+  }
+ }
+}
+

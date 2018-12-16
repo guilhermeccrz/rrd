@@ -76,8 +76,51 @@ $(document).ready(function(){
       appendArrows: '.session-blog .control',
       arrows:true,
       centerPadding: '5%',
-      infinite:false
+      infinite:false,
+      responsive: [
+    {
+      breakpoint: 1489,
+      settings: {
+        slidesToShow: 3,
+        cssEase:'cubic-bezier(0.175, 0.885, 0.320, 1.275)',
+        appendArrows: '.session-blog .control',
+        arrows:true,
+        centerPadding: '5%',
+        infinite:false
+      }
+    },
+    {
+      breakpoint: 992,
+      settings: {
+         slidesToShow: 1,
+        cssEase:'cubic-bezier(0.175, 0.885, 0.320, 1.275)',
+        appendArrows: '.session-blog .control',
+        arrows:true,
+        centerPadding: '5%',
+        infinite:false
+      }
+    },
+    {
+      breakpoint: 0,
+      settings: {
+         slidesToShow: 1,
+        cssEase:'cubic-bezier(0.175, 0.885, 0.320, 1.275)',
+        appendArrows: '.session-blog .control',
+        arrows:true,
+        centerPadding: '5%',
+        infinite:false
+      }
+    }
+    // You can unslick at a given breakpoint now by adding:
+    // settings: "unslick"
+    // instead of a settings object
+  ]
     });
+
+    $('.carr-home-05').on('breakpoint', function(event, slick, breakpoint) {
+        $('.control .slick-prev').addClass('arrow-custom arrow-left-custom');
+        $('.control .slick-next').addClass('arrow-custom arrow-right-custom');
+  });
 
     $('.carr-interna-01 .wrap').slick({
       cssEase:'cubic-bezier(0.175, 0.885, 0.320, 1.275)',
@@ -90,3 +133,4 @@ $(document).ready(function(){
   	$('.control .slick-prev').addClass('arrow-custom arrow-left-custom');
   	$('.control .slick-next').addClass('arrow-custom arrow-right-custom');
 });
+
