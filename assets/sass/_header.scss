@@ -6,7 +6,23 @@ header {
   left: 0;
   top: 0;
   width: 100%;
-  overflow: hidden;
+
+
+  .breadcrumb-x {
+    background-color: #fff;
+    float: left;
+    color:#202B4B;
+    font-size: 16px;
+    font-weight: 400;
+    padding: 45px 2em;
+    line-height: 4px;
+    transition:$transition-style-01;
+    position: relative;
+
+    &.opened {
+      left: -35em;
+    }
+  }
 
   h1 {
     float:left;
@@ -105,32 +121,64 @@ header {
   nav {
      float: left;
      position: relative;
-     left:-900px;
+     margin-left:-900px;
      transition:$transition-style-01;
      z-index: 1;
      background-color: #fff;
 
      &.opened {
-      left: 0;
+      margin-left: 0;
      }
 
-    ul {
+    ul.navigation {
       padding: 0 40px;
       margin: 0;
 
       li {
         display: inline-block;
         padding: 35px 20px;
+        position: relative;
+        transition-duration:.5s;
         &:last-child {
-          padding-right:0;
+         
+        }
+        &:hover {
+           background: #F7F7F7;
+           ul {
+            opacity: 1;
+          }
         }
         a {
           font-size: 15px;
           color: #202B4B;
 
           &:hover {
-            font-weight: bold;
+            font-weight: 400!important;
             text-decoration: none;
+
+
+          }
+        }
+
+        ul {
+          opacity: 0;
+          position: absolute;
+          transition-duration:.2s;
+          z-index: 3;
+          top: 5em;
+          left: 0;
+          background: #F7F7F7;
+          width: 316px;
+          max-width: 316px;
+          padding-left: 1.3em;
+          padding-bottom: 20px;
+          box-shadow: 10px 10px 51px -31px rgba(0,0,0,0.5);
+
+          li {
+            display: block;
+            padding:10px 0;
+            background: #F7F7F7;
+
           }
         }
       }
@@ -142,11 +190,21 @@ header {
     right: 0px;
     top:0px;
     max-height: 93px;
-    padding: 33px 0px; 
+    padding: 33px 0px;
+
+    &:hover {
+      .btn-icon {
+         background-image: url('../img/home/busca.png')!important;
+      }
+    } 
+
+    &.dark {
+      .btn-icon {
+         background-image: url('../img/home/buscaBranca.png');
+      }
+    }
 
     &.opened {
-      
-
       .form-search {
         right: 0px;
       }
@@ -159,6 +217,8 @@ header {
     }
 
     .btn-icon {
+
+      transition:$transition-style-01;
       width: 30px;
       height: 30px;
       background: url('../img/home/busca.png');
@@ -192,3 +252,103 @@ header {
   }
 
 }  
+
+
+
+//SÃO 3 BREAKPOINTS QUE VAMOS UTILIZAR
+ // sm: 576px,
+ // lg: 992px,
+ // xl: 1490px
+@media screen and (min-width: 993px) and (max-width: 1489px)  {
+  header {
+    nav {
+      ul.navigation {
+        padding: 0 10px;
+        li {
+          padding: 35px 10px;
+          a {
+            font-size: 12px!important;
+          }
+        }
+      }
+    }
+
+    .form-search {
+       border-left: solid 1px #fafafa;
+    }
+  }
+
+  .breadcrumb-x {
+    display: none;
+  }
+}
+
+
+
+@media screen and (min-width: 0px) and (max-width: 992px)  {
+  .breadcrumb-x {
+    display: none;
+  }
+  header {
+    position: fixed;
+    z-index: 999;
+
+    h1 {
+      width: 100%;
+    }
+
+    .btn-nav {
+      float:right;
+      position: absolute;
+      right:0;
+      top: 1px;
+    }
+    nav {
+      margin: 0px;
+      top: -16em;
+
+      &.opened {
+        top: 0em;
+      }
+
+      ul.navigation {
+        padding: 0 10px;
+        overflow: auto;
+        max-height: 250px;
+        li {
+          padding: 15px 10px;
+          float: left;
+          width: 100%;
+
+          &:hover {
+            background-color: #fff;
+          }
+
+          ul {
+            position: relative;
+            display: block;
+            opacity: 1;
+             background-color: #fff;
+             top: 0em;
+
+            li {
+               background-color: #fff;
+
+               a {
+                font-size: 12px!important;
+               }
+            }
+          }
+          a {
+            font-size: 20px!important;
+            font-weight: bold;
+          }
+        }
+      }
+    }
+
+    .search-box {
+      display: none;
+    }
+  }
+}

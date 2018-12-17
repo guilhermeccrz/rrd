@@ -77,8 +77,8 @@ div.session-green {
     background-color: #fff;
     box-shadow: 10px 10px 51px -15px rgba(0,0,0,0.2);
     position: absolute;
-    top: -2.5em;
-    right: 1em;
+    top: -2.6em;
+    right: 2.7em;
     overflow: hidden;
 
     button:focus {outline:0;}
@@ -331,14 +331,13 @@ div.carr-home-03 {
 .session-blog {
   background-color: #ecebe8;
   position: relative;
-  min-height: 500px;
-  margin-bottom: 240px;
+  min-height: 700px;
   float:left;
   width: 100%;
 
   .macro-wrap {
     position: absolute!important;
-    bottom: 0;
+    bottom: 14em;
     .control {
 
     }
@@ -412,3 +411,329 @@ div.carr-home-03 {
     }
   }
 }
+
+.sesseion-arr {
+  background: #ecebe8 url(/public/assets/img/home/img-arr.png) no-repeat bottom center;
+  min-height: 503px;
+  float: left;
+  width: 100%;
+}
+.text-arr {
+  font-size: 18px;
+  color: #202B4B;
+  max-width: 1026px;
+  max-height: 850px;
+  padding-left: 23.8em;
+  margin-top: -29px;
+}
+.text-arr span {
+  font-size: 80px;
+  font-weight: bold;
+}
+
+.text-donnelley {
+  padding-top: 0.3em;
+  min-width: 626px;
+  font-size: 18px;
+  color: #202B4B;
+  padding-left: 23.9em;
+  padding-right: 22.4em;
+  font-weight: 400;
+}
+
+.text-donnelley a{
+  display: block;
+  clear: both;
+  font-size: 18px;
+  font-weight: 300;
+  color: #202B4B;
+  padding:2em 0 1.0em 0;
+}
+
+
+.session-conecta {
+    background-color: #ecebe8;
+    position: relative;
+    min-height: 650px;
+    float:left;
+    width: 100%;
+
+  .text-conecta {
+    font-size: 60px;
+    color: #202B4B;
+    font-weight: bold;
+    max-width: 1297px;
+    line-height: 1.0;
+    padding-left: 1.8em;
+  }
+}
+
+.session-conecta a{
+  display: block;
+  clear: both;
+  font-size: 18px;
+  font-weight: 300;
+  color: #202B4B;
+  padding:2em 0 1.0em 19em;
+}
+
+
+.sidebar {
+  position: absolute;
+  display: block;
+  right: 2.5em;
+  top: 8em;
+  z-index: 3;
+
+  div {
+    padding-top: 2em;
+  }
+
+  a {
+    background-position: center center!important;
+    margin: 1.2em 0;
+    cursor: pointer;
+    transition:$transition-style-01;
+  }
+
+  &.dark {
+    .face { background-image: url('../img/home/iconface1.png') ;}
+    .linkedin { background-image: url('../img/home/iconlinkedin1.png');}
+    .youtube { background-image: url('../img/home/iconyoutube1.png') ;}
+    .instagram { background-image: url('../img/home/iconinsta1.png') ;}
+  }
+
+  .face {
+    background: url('../img/home/iconface.png') no-repeat;
+    width: 25px;
+    height: 25px;
+    background-size: contain;
+    display: block;
+  }
+
+  .linkedin {
+    background: url('../img/home/iconlinkedin.png') no-repeat;
+    width: 25px;
+    height: 25px;
+    background-size: contain;
+    display: block;
+  }
+
+  .youtube {
+    background: url('../img/home/iconyoutube.png') no-repeat;
+    width: 25px;
+    height: 25px;
+    background-size: contain;
+    display: block;
+  }
+
+  .instagram {
+    background: url('../img/home/iconinsta.png') no-repeat;
+    width: 25px;
+    height: 25px;
+    background-size: contain;
+    display: block;
+  }
+}
+
+//SÃO 3 BREAKPOINTS QUE VAMOS UTILIZAR
+ // sm: 576px,
+ // lg: 992px,
+ // xl: 1490px
+@media screen and (min-width: 993px) and (max-width: 1489px)  {
+ div.carr-home-02 {
+  width: 100%;
+ }
+
+ div.carr-home-03 {
+  width: 100%;
+  margin-top: 0px;
+ }
+
+ div.carr-home-04 {
+  .mini-wrap-control {
+    width: 100%;
+    bottom: 1em!important;
+  }
+
+  .mini-wrap {
+    width: 95%;
+  }
+ }
+
+ div.sesseion-arr {
+  .container {
+    width: 100%;
+  }
+
+  .text-arr {
+        padding-left: 3.8em;
+  }
+
+  .text-donnelley {
+    width: 100%;
+    padding-left: 3.9em;
+    padding-right: 2.4em;
+  }
+ }
+
+ div.session-conecta {
+  .text-conecta {
+    font-size: 40px;
+  }
+
+  a {
+        padding: 2em 0 1.0em 12.5em;
+  }
+ }
+}
+
+
+
+@media screen and (min-width: 0px) and (max-width: 992px)  {
+
+  .flutuant-title {
+    display: none;
+  }
+ div.carr-home-01 {
+  width: 100%;
+
+  .container {
+    h1 {
+      font-size: 38px;
+      max-width: 285px;
+    }
+
+    a.arrow-right {
+          margin: 0 1.5em;
+    }
+  }
+ }
+
+ div.carr-home-02 {
+  width: 100%;
+  div.wrap div a {
+    font-size: 16px;
+  }
+ }
+
+ div.carr-home-03 {
+  width: 100%;
+  margin-top: 0px;
+    background-color: #333333;
+
+  .control {
+    width: 70px;
+    right: 0em;
+    top: 6.5em;
+    z-index: 4;
+  }
+
+   .wrap .wrap-custom div {
+      background-color: #333333;
+      position: relative;
+      top: -5px;
+   }
+  
+ }
+
+ div.carr-home-04 {
+  padding-bottom: 0px;
+      margin: 0px auto 198px 0;
+
+  .mini-wrap-control {
+    width: 100%;
+    bottom: 3em !important;
+
+   .control {
+      left: initial!important;
+      right:1.5em!important;
+    }
+  }
+
+  .mini-wrap {
+    width: 95%;
+
+    img {
+      width: 100%;
+      margin-top: 5em;
+    }
+  }
+
+  .info {
+      margin-top: 12.9em;
+      left: 2.2em;
+    h2 {
+      font-size:68px;
+
+      span {
+        font-size: 72px;
+      }
+    }
+    a {
+      top: 30px;
+    }
+  }
+ }
+
+ div.session-blog {
+  .container {
+    padding: 0 2.2em;
+    position: relative;
+    h2.title {
+      font-size:150px;
+      position: relative;
+    }
+
+    a.link {
+      position: absolute;
+      top: 4em;
+      right: 2.2em;
+    }
+  }
+  .slick-list {
+        padding: 0 0 0 0!important;
+    left: 0px!important;
+  }
+ }
+
+ div.sesseion-arr {
+  .container {
+    width: 100%;
+  }
+
+  .text-arr {
+        padding-left: 2.2em;
+  }
+
+  .text-donnelley {
+    width: 100%;
+    padding-left: 2.2em;
+    padding-right: 2.2em;
+    min-width: 0;
+  }
+ }
+
+ div.session-conecta {
+    min-height: 330px;
+    .container {
+    width: 100%;
+    padding: 0 2.2em;
+  }
+  .text-conecta {
+    font-size: 20px;
+    text-align: center;
+    padding-left: 0;
+
+    br {
+      display: none;
+    }
+  }
+
+  a {
+        padding: 2.2em;
+        text-align: center;
+  }
+ }
+}
+

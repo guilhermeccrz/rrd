@@ -1,0 +1,131 @@
+footer {
+    min-height: 330px;
+    float: left;
+    width: 100%;
+
+    .footer-content{
+        min-height: 330px;
+        padding-left: 2.2em;
+        display: inline-block;
+    }
+    .mini-rrd {
+        font-size: 18px;
+        font-weight: bold;
+        float: left;
+        padding-left: 0em;
+
+        p {
+            color:#202B4B;
+        }
+    }
+
+    .linha {
+        border-right: 1px solid;
+        margin-top: 4em;
+        height: 174px;
+        padding-right: 5.5em;
+        color: #D3D3D3;
+    }
+
+    .mini-contato {
+        padding-top: 4em;
+        font-size: 16px;
+        display: inline-block; 
+        clear: both;
+
+        a {
+            color:#202B4B;
+            font-weight: 300;
+            font-size: 16px;
+            display: block;
+            line-height: 2.0em;
+            list-style: none;
+        }
+
+        a.link {
+            color: #202B4B;
+        }
+        ul{
+            min-width: 250px;
+        }
+        li {
+            list-style: none;
+        }
+    }
+    
+    .news {
+        font-size: 16px;
+        padding-left: 6.9em;
+        float: right;
+        padding-top: 4em;
+        
+
+        input[type=text] {
+            min-width: 280px;
+            min-height: 32px;
+            color: #202B4B;
+            margin-bottom: 10px;
+            padding: 0.2em;
+        }
+
+        .arrow-right-default {
+            position: relative;
+            left: -2.0em;
+        }
+
+        hr {
+            min-width: 646px;
+            color: #D3D3D3;
+            margin-bottom: 20px;
+        }
+        .textolegal{
+            font-size: 14px;
+            color: #333333;
+            letter-spacing: 0.4px;
+            max-width: 648px;
+            line-height: 1.2;
+            margin-bottom: 0;
+        }
+    }
+
+    
+}
+
+
+@media screen and (min-width: 0px) and (max-width: 992px)  {
+    footer {
+        .news {
+            padding:0;
+           *{
+            max-width: none!important;
+            min-width: unset!important;
+           } 
+        }
+
+        input[type=text]{
+            width: 90%;
+        }
+
+        .footer-content {
+            width: 100%;
+            padding-right: 2.2em;
+        }
+
+        .mini-rrd  {
+            display: none;
+        }
+
+        .mini-contato {
+            width: 100%;
+            float: left;
+            ul {
+                padding: 0;
+                margin: 0;
+                li {
+                    display: block;
+                    text-align: center;
+                }
+            }
+        }
+    }
+}
