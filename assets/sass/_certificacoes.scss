@@ -91,7 +91,7 @@
         padding-left: 46em;
       }
       .seta-gestao {
-        padding-left: 48em;
+        padding-left: 48.5em;
       }
       .seta-sustentabilidade {
         padding-left: 42.5em;
@@ -106,87 +106,78 @@
       &.bg-certificacoes {
         background-image: none!important;
       }
-  
-      .container {
-        padding: 0 2em!important;
-      }
-  
-      .container-info {
-        padding: 0 1.5em!important;
-      }
-  
-      .container-title {
-         margin: 10em auto 4em auto;
-      }
-  
-      .info {
-        margin: 5em 0;
-      }
       .bg-fundo-certificacoes {
-        min-height: 1200px;
+        min-height: 1300px;
       }
       .certi {
         max-width: 800px;
-    }
-    .certi-sub-title {
+        margin-top: 10em;
+        margin-left: -10em;
+        width: 100%;
+        display: block;
+      }
+      .certi-sub-title {
         min-width: 750px!important;
-    }
+      }
    
-    .card{
-        max-width: 750px!important;
-    }
-
+      .card{
+          max-width: 750px!important;
+      }
+      .accordion-certificacoes{
+        margin-top: 20em;
+        margin-left: -18.5em;
+        width: 100%;
+        display: block;
+      }
+      .seta-gestao{
+        padding-left: 32em!important;
+      }
+      .seta-seguranca{
+        padding-left:30em!important;
+      }
+      .seta-sustentabilidade{
+        padding-left: 26.5em!important;
+      }
     }
   }
   
   
-  
-  @media screen and (min-width: 0px) and (max-width: 992px)  {
-    .session-single-01 {
-      background-size: 100%!important;
-      padding-bottom: 6em!important;
-  
-      &.bg-certificacoes {
-        background-image: none!important;
-      }
-  
-      .container {
-        padding: 0 2.2em!important;
-      }
-  
-      .container-control {
-        .control {
-          left: initial!important;
-        }
-      }
-  
-      .container-info {
-        padding: 0 2.2em!important;
-      }
-  
-      .container-title {
-         margin: 10em auto 4em auto;
-      }
-  
-      .info {
-        margin: 5em 0;
-      }
-      .bg-fundo-certificacoes {
-        min-height: 1800px;
-      }
-      .certi {
-        max-width: 800px;
+
+@media screen and (min-width: 0px) and (max-width: 992px)  {
+  .session-single-01 {
+    background-size: 100%!important;
+    padding-bottom: 6em!important;
+
+    &.bg-certificacoes {
+      background-image: none!important;
+    }
+    .bg-fundo-certificacoes {
+      min-height: 1800px;
+    }
+    .certi{
+      margin-top: 9.5em;
+      margin-left: -13em;
     }
     .certi-sub-title {
-        min-width: 450px!important;
-        text-align: justify;
-    }
-   
-    .card{
-        max-width: 450px!important;
+      min-width: 470px!important;
     }
     .accordion-certificacoes{
-        margin-top: 10em;
+      margin-top: 26em;
+      margin-left: -24.5em;
+      width: 100%;
+      display: block;
+    }
+    .seta-gestao{
+      padding-left: 17em!important;
+    }
+    .seta-seguranca{
+      padding-left:14.5em!important;
+    }
+    .seta-sustentabilidade{
+      padding-left: 11em!important;
+    }
+    .card{
+      min-width: 486px!important;
     }
   }
 }

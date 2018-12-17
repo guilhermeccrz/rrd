@@ -66,36 +66,21 @@
       background-image:none!important;
     }
 
-    .container {
-      padding: 0 2em!important;
-      margin: 20em auto 0 auto;
-    }
-
-    .container-info {
-      padding: 0 1.5em!important;
-    }
-
-    .container-title {
-       margin: 10em auto 4em auto;
-    }
-
-    .info {
-      margin: 5em 0;
-    }
-
     .bg-fundo-politica{
         min-height: 500px!important;
     }
     .title-politica{
-      margin-left: 9em;
+      margin-top: 11em;
+      margin-left: -10em;
     }
     .sub-title-politica {
         max-width: 1000px!important;
-        margin-left: 15em;
-        text-align: justify;
+        margin-top: 19em;
+        margin-left: -17em;
     }
     .clique {
-        margin: 4em auto 0 17em;
+      margin-left: -19em;
+      margin-top: 25em;
     }
   }
 }
@@ -111,44 +96,20 @@
     &.bg-politica {
       background-image:none!important;
     }
-
-    .container {
-      padding: 0 2.2em!important;
-      margin-top: 20em;
-    }
-
-    .container-control {
-      .control {
-        left: initial!important;
-      }
-    }
-
-    .container-info {
-      padding: 0 2.2em!important;
-    }
-
-    .container-title {
-       margin: 10em auto 2em 0;
-    }
-
-    .info {
-      margin: 5em 0;
-    }
     .bg-fundo-politica{
         min-height: 500px!important;
     }
     .title-politica{
-      margin-top: -10em;
+      margin-left: -12em;
     }
     .sub-title-politica {
         min-width: 650px!important;
-        margin-top: -14em;
-        text-align: justify;
-        margin: -12em 2em 0 0em;
+        margin-left: -20em;
+        margin-top: 2em;
     }
     .clique {
-        margin: -2em auto 0 auto;
-        min-width: 650px!important;
+      margin-left: -23em;
+      margin-top: 12em;
     }
     a{
         font-size: 16px;

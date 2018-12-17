@@ -182,82 +182,79 @@
         &.bg-premio {
         background-image:none!important;
         }
-        .container {
-            width: 100%;
-        }
-      
-        .container-info {
-            padding: 0 1.5em!important;
-        }
-      
-        .carr-interna-01 img {
-            width: 100%;
-            padding-right: 0;
-        }
-        
-      
-        .container-title {
-             margin: 10em auto 4em auto;
-        }
-      
-        .info {
-            margin: 5em 0;
-        }
         .title{
-            margin-top: -10em;
+            margin-left: -13em;
         }
         .sub-title{
-            margin-top: -17em;
-            max-width: 880px;;
+            margin-left: -21.5em;
+            max-width: 880px;
         }
         .premio1 > img{
             display: none;
         }
+        .premio1{
+            margin-top: 19em;
+            margin-left: -24em;
+        }
         .premio1-title {
-            max-width: 800px;
+            max-width: 1000px;
             margin-top: -10em;
             margin-left: -8em;
         }
  
         .premio1-sub-title {
-            max-width: 800px;
+            max-width: 1000px;
             margin-top: -14em!important;
             margin-left: -13.5em;
         }
         .premio2 > img{
             display: none;
         }
+
+        .premio2{
+            margin-top: 31em;
+            margin-left: -24em;
+        }
         .premio2-title {
-            max-width: 800px;
+            max-width: 1000px;
             margin-top: -18em!important;
             margin-left: -8em;
         }
  
         .premio2-sub-title {
-            max-width: 800px;
+            max-width: 1000px;
             margin-top: -28em!important;
             margin-left: -13.5em;
         }
         .premio3 > img{
             display: none;
         }
+
+        .premio3 {
+            margin-top: 50em;
+            margin-left: -24em;
+        }
         .premio3-title {
-            max-width: 800px;
+            max-width: 1000px;
             margin-top: -27em!important;
             margin-left: -8em;
         }
         .premio3-sub-title {
-            max-width: 800px;
+            max-width: 1000px;
             margin-top: -48em!important;
             margin-left: -13.5em;
         }
+        .premio4 {
+            margin-top: 65em;
+            margin-left: -24em;
+        }
         .premio4-title {
-            max-width: 800px;
+            max-width: 1000px;
             margin-top: -37em!important;
             margin-left: -8em;
         }
         .premio4-sub-title {
-            max-width: 800px;
+            max-width: 1000px;
             margin-top: -60em!important;
             margin-left: -13.5em;
         }
@@ -281,97 +278,79 @@
         &.bg-premio {
         background-image:none!important;
         }
-        .container {
-            padding: 0 2em!important;
-            width: 100%;
-            align-items: center;
-            margin-left: -23em;
-            padding-right: 25em;
-            height: 100%;
-        }
-      
-        .container-info {
-            padding: 0 1.5em!important;
-        }
-      
-        .carr-interna-01 img {
-            width: 100%;
-            padding-right: 0;
-        }
-        
-      
-        .container-title {
-             margin: 10em auto 4em auto;
-        }
-      
-        .info {
-            margin: 5em 0;
-        }
-
         .title{
-            margin-top: -10em;
+            margin-left: -13em;
         }
         .sub-title{
-            margin-top: -14em;
+            margin-top: 2em;
+            margin-left: -22em;
         }
         .premio1 > img{
             display: none;
+        }
+        .premio1{
+            margin-left: -24em;
+            margin-top: 17em;
         }
         .premio1-title {
             max-width: 650px;
             margin-top: -8em;
             margin-left: -8em;
-            text-align: justify;
         }
  
         .premio1-sub-title {
             max-width: 650px;
             margin-top: -9em!important;
             margin-left: -13.5em;
-            text-align: justify;
         }
         .premio2 > img{
             display: none;
+        }
+        .premio2{
+            margin-left: -24em;
+            margin-top: 16em;
         }
         .premio2-title {
             max-width: 650px;
             margin-top: 1em!important;
             margin-left: -8em;
-            text-align: justify;
         }
  
         .premio2-sub-title {
             max-width: 650px;
             margin-top: 5em!important;
             margin-left: -13.5em;
-            text-align: justify;
         }
         .premio3 > img{
             display: none;
+        }
+        .premio3{
+            margin-left: -24em;
+            margin-top: 16em;
         }
         .premio3-title {
             max-width: 650px;
             margin-left: -8em;
             margin-top: 6em;
-            text-align: justify;
         }
         .premio3-sub-title {
             max-width: 650px;
             margin-left: -13.5em;
             margin-top: 10em;
-            text-align: justify;
+        }
+        .premio4{
+            margin-top: 15em;
+            margin-left: -24em;
         }
         .premio4-title {
-            max-width: 650px;
+            max-width: 700px;
             margin-left: -8em;
             margin-top: 7em;
-            text-align: justify;
         }
         .premio4-sub-title {
-            max-width: 650px;
+            max-width: 700px;
             margin-top: 15em;
             margin-left: -13.5em;
-            text-align: justify;
         }
         .bg-fundo-premio {
             min-height: 2400px;
