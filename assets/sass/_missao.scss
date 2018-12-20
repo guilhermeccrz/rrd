@@ -5,6 +5,29 @@
   background-position: bottom left;
 }
 
+.bg-rrdnobrasil {
+  background-image:url('../img/rrdnobrasil/bg.png') ;
+  padding-bottom: 37em!important;
+  background-repeat: no-repeat;
+  background-position: bottom left;
+}
+
+.bg-rrdnomundo {
+  background-image:url('../img/rrdnomundo/bg.png') ;
+  padding-bottom: 37em!important;
+  background-repeat: no-repeat;
+  background-position: bottom left;
+}
+
+
+.bg-bola {
+      background: url('../img/rrdnobrasil/bola.png') no-repeat scroll 10px 200px;
+}
+
+.bg-bola-maior {
+      background: url('../img/rrdnomundo/bola.png') no-repeat scroll 10px 700px;
+}
+
  .carr-interna-01 {
     position: relative;
 

@@ -27,3 +27,209 @@
     }
   }
 }
+
+.session-single-02 {
+  background-color: #ECEBE8;
+  min-height: 500px;
+  float: left;
+  width: 100%;
+  padding-bottom: 5em;
+  position: relative;
+
+  .bg-cima {
+    width: 100%;
+    position: absolute;
+    z-index: 4;
+    min-height: 1000px;
+  }
+
+  p {
+    font-size: 18px;
+    color: #202B4B;
+  }
+
+  .left-info {
+    max-width: 350px;
+  }
+
+  .right-info {
+    max-width: 350px;
+    float: right;
+  }
+
+  .carr-interna-01{
+    position: absolute;
+    z-index: 3;
+    top: 0;
+    right: 0;
+    max-width: 60%;
+    min-width: 60%;
+
+    &.left {
+      left:0px;
+      right: initial!important;
+    }
+
+    .container {
+       max-width: initial!important;
+    }
+
+    .container-info {
+      padding-left: 0em!important;
+    }
+
+    
+  }
+  
+  .container-info {
+    padding-left: 8.5em!important;
+  }
+
+  .container-title {
+    margin: 12em auto 4em auto;
+    position: relative;
+    z-index: 8;
+    overflow: hidden;
+    clear: both;
+
+    h1 {
+      font-size: 80px;
+      font-weight: bold;
+      color:#202B4B;
+      margin-left: -.1em;
+    }
+
+    h2 {
+      font-size: 18px;
+      font-weight: 700;
+      color:#202B4B;
+      margin: 1em 0em;
+    }
+  }
+}
+
+
+
+//SÃO 3 BREAKPOINTS QUE VAMOS UTILIZAR
+ // sm: 576px,
+ // lg: 992px,
+ // xl: 1490px
+@media screen and (min-width: 993px) and (max-width: 1489px)  {
+  div.session-single-02 {
+    background-size: 100%!important;
+    padding-bottom: 20em!important;
+
+    &.bg-missao {
+      background-image:url('../img/interna/bg-missao-mobile.png')!important;
+    }
+
+    .left-info {
+      max-width: 100%;
+    }
+    .right-info {
+      max-width: 100%;
+    }
+
+    .bg-bola, .bg-bola-maior {
+      background-image: none!important;
+    }
+
+    .container {
+      padding: 0 2em!important;
+    }
+
+    div.container-title-2 {
+      margin-top: 4em;
+    }
+
+    .container-info {
+      padding: 0 1.5em!important;
+    }
+
+    .carr-interna-01 {
+      position: relative!important;
+      max-width: initial!important;
+
+      div.container-info {
+      padding-left: 1.5em!important;
+      }
+    }
+    .carr-interna-01 img {
+      width: 100%;
+      padding-right: 0;
+      
+    }
+
+    .container-title {
+       margin: 10em auto 4em auto;
+    }
+
+    .info {
+      margin: 5em 0;
+    }
+  }
+}
+
+
+
+@media screen and (min-width: 0px) and (max-width: 992px)  {
+  div.session-single-02 {
+    background-size: 100%!important;
+    padding-bottom: 6em!important;
+
+    &.bg-missao {
+      background-image:url('../img/interna/bg-missao-mobile.png')!important;
+    }
+
+    div.container-title-2 {
+      margin-top: 4em;
+    }
+    .left-info {
+      max-width: 100%;
+    }
+
+    .right-info {
+      max-width: 100%;
+    }
+    .bg-bola, .bg-bola-maior {
+      background-image: none!important;
+    }
+
+    .container {
+      padding: 0 2.2em!important;
+    }
+
+    .container-control {
+      .control {
+        left: initial!important;
+      }
+    }
+
+    .container-info {
+      padding: 0 2.2em!important;
+    }
+
+    .carr-interna-01 {
+      position: relative!important;
+      max-width: initial!important;
+
+      .container-info {
+      padding-left: 1.5em!important;
+      }
+    }
+
+    .carr-interna-01 img {
+      width: 100%;
+      padding-right: 0;
+  
+    }
+
+    .container-title {
+       margin: 10em auto 4em auto;
+    }
+
+    .info {
+      margin: 5em 0;
+    }
+  }
+}

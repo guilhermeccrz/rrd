@@ -109,44 +109,48 @@
 }
 
 .arrow-custom {
-  position: absolute;
-  top: 50%;
-  width: .1em;
-  height: .9em;
-  background: transparent;
+  position: relative;
+  background-size: cover;
+  // background: transparent;
   border: none;
-  border-top: .1em solid #202B4B;
-  border-right: .1em solid #202B4B;
-  box-shadow: 0 0 0 lightgray;
-  transition: $transition-style-01;;
   text-indent: -5000px;
   cursor: pointer;
-  transform:scale(2,1); /* W3C */
+  width: 65px;
+  height: 60px;
+  // transform:scale(2,1); /* W3C */
+  // border-top: .1em solid #202B4B;
+  // border-right: .1em solid #202B4B;
+  // box-shadow: 0 0 0 lightgray;
+  // transition: $transition-style-01;
   z-index: 3;
+  background-repeat: no-repeat;
+  float: left;
+  background-color: #fff;
+  
 
   &.arrow-right-custom {
-    right: 1em;
-    transform: translate3d(0,-50%,0) rotate(45deg);
+    // transform: translate3d(0,-50%,0) rotate(45deg);
+    background-image: url(../img/home/setadireita2.png);
+    left: initial;
   }
 
   &.arrow-left-custom {
-    left: 1em;
-    transform: translate3d(0,-50%,0) rotate(-135deg);
+    // transform: translate3d(0,-50%,0) rotate(-135deg);
+    background-image: url(../img/home/setaesquerda2.png);
   }
-
   &:hover {
-    border-color: #fafafa;
-    box-shadow: 0.5vmin -0.5vmin 0 #202B4B;
+    // border-color: #fafafa;
+    // box-shadow: 0.5vmin -0.5vmin 0 #202B4B;
   }
 
   &:before { // for better hit area
-    content: '';
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-40%,-60%) rotate(45deg);
-    width: 200%;
-    height: 200%;
+    // content: '';
+    // position: absolute;
+    // top: 50%;
+    // left: 50%;
+    // transform: translate(-40%,-60%) rotate(45deg);
+    // width: 200%;
+    // height: 200%;
   }
 
 }

@@ -2,7 +2,8 @@
 header {
   //max-width: 1046px;
   max-height: 93px;
-  position: absolute;
+  position: fixed;
+  z-index: 10;
   left: 0;
   top: 0;
   width: 100%;

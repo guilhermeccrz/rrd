@@ -92,7 +92,7 @@ $(document).ready(function(){
     {
       breakpoint: 759,
       settings: {
-         slidesToShow: 1,
+         slidesToShow: 2,
         cssEase:'cubic-bezier(0.175, 0.885, 0.320, 1.275)',
         appendArrows: '.session-blog .control',
         arrows:true,
@@ -101,7 +101,7 @@ $(document).ready(function(){
       }
     },
     {
-      breakpoint: 0,
+      breakpoint: 700,
       settings: {
          slidesToShow: 1,
         cssEase:'cubic-bezier(0.175, 0.885, 0.320, 1.275)',
@@ -131,6 +131,15 @@ $(document).ready(function(){
 
 
   	$('.control .slick-prev').addClass('arrow-custom arrow-left-custom');
-  	$('.control .slick-next').addClass('arrow-custom arrow-right-custom');
+    $('.control .slick-next').addClass('arrow-custom arrow-right-custom');
+    
+
+  $('#playMovie1').click(function () {
+    $('#myVideo')[0].play();
+    $('#myVideo').addClass('active');
+  });
 });
+
+
+
 
