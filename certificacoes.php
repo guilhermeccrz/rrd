@@ -1,6 +1,6 @@
 <?php
 $breadcrumb_title = 'Qualidade';
-$breadcrumb_subtitle = 'Certificações;'
+$breadcrumb_subtitle = 'Certificações';
 include 'includes/header.php';  // Works.
 ?>
 

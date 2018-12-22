@@ -128,6 +128,12 @@ $(document).ready(function(){
       arrows:true
     });
 
+    $('.carr-interna-04 .wrap').slick({
+      cssEase:'cubic-bezier(0.175, 0.885, 0.320, 1.275)',
+      appendArrows: '.carr-interna-04 .control',
+      arrows:true,
+      fade:true
+    });
 
 
   	$('.control .slick-prev').addClass('arrow-custom arrow-left-custom');

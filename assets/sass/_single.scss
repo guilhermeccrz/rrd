@@ -1,3 +1,59 @@
+.menor {
+  font-size: 54px!important;
+}
+
+.width60 {
+  width: 70%!important;
+  position: relative;
+}
+
+.container-negativo {
+  position: relative;
+  top: -30em;
+}
+
+.lista {
+  float: left;
+  width: 560px;
+}
+.lista p {
+  float: left;
+  width: 50%;
+}
+
+.bt-red {
+  color: #fff;
+  font-size: 18px;
+  background: #D33A52;
+  padding: 10px 50px;
+  display: inline-block;
+  font-weight: bold;
+
+
+  &:hover {
+    color: #fff;
+  }
+}
+.bt-blue {
+  color: #fff;
+  font-size: 18px;
+  background: #202B4B;
+  padding: 10px 50px;
+  display: inline-block;
+ font-weight: bold;
+
+  &:hover {
+    color: #fff;
+  }
+}
+
+.div-info {
+  float: left;
+  clear: both;
+  padding: 20px;
+  width: 600px;
+}
+
 .session-single-01 {
   background-color: #ECEBE8;
   min-height: 500px;
@@ -50,11 +106,29 @@
 
   .left-info {
     max-width: 350px;
+        min-height: 655px;
   }
 
   .right-info {
     max-width: 350px;
     float: right;
+  }
+
+  .carr-interna-04 {
+    left: 0em;
+    position: relative;
+    float: left;
+    width:680px;
+    margin-bottom: 2em;
+    .control {
+      top: 0.4em;
+      left: 20.7em;
+    }
+
+     .container-info {
+      padding-left: 0px!important;
+      padding-top: 30px;
+     }
   }
 
   .carr-interna-01{
@@ -115,6 +189,27 @@
  // lg: 992px,
  // xl: 1490px
 @media screen and (min-width: 993px) and (max-width: 1489px)  {
+   .div-info {
+      width: 100%!important;
+      padding: 20px 0 0 0px!important;
+    }
+
+    .lista p {
+  float: left;
+  width: 100%;
+}
+
+.width60 {
+  width: 100%!important;
+  position: relative;
+}
+
+.container-negativo {
+  position: relative;
+  top: 0em!important;
+}
+
+
   div.session-single-02 {
     background-size: 100%!important;
     padding-bottom: 20em!important;
@@ -125,6 +220,7 @@
 
     .left-info {
       max-width: 100%;
+      min-height: 20px!important;
     }
     .right-info {
       max-width: 100%;
@@ -154,10 +250,14 @@
       padding-left: 1.5em!important;
       }
     }
-    .carr-interna-01 img {
+    .carr-interna-01 img,  .carr-interna-04 img  {
       width: 100%;
       padding-right: 0;
       
+    }
+
+    .carr-interna-04 {
+      width: 100%!important;
     }
 
     .container-title {
@@ -173,6 +273,24 @@
 
 
 @media screen and (min-width: 0px) and (max-width: 992px)  {
+  .div-info {
+      width: 100%!important;
+       padding: 20px 0 0 0px!important;
+    }
+    .lista p {
+  float: left;
+  width: 100%;
+}
+
+.width60 {
+  width: 100%!important;
+  position: relative;
+}
+
+.container-negativo {
+  position: relative;
+  top: 0em!important;
+}
   div.session-single-02 {
     background-size: 100%!important;
     padding-bottom: 6em!important;
@@ -181,11 +299,14 @@
       background-image:url('../img/interna/bg-missao-mobile.png')!important;
     }
 
+    
+
     div.container-title-2 {
       margin-top: 4em;
     }
     .left-info {
       max-width: 100%;
+        min-height: 20px!important;
     }
 
     .right-info {
@@ -209,6 +330,10 @@
       padding: 0 2.2em!important;
     }
 
+    .carr-interna-04 {
+      width: 100%!important;
+    }
+
     .carr-interna-01 {
       position: relative!important;
       max-width: initial!important;
@@ -218,7 +343,7 @@
       }
     }
 
-    .carr-interna-01 img {
+    .carr-interna-01 img, .carr-interna-04 img  {
       width: 100%;
       padding-right: 0;
   

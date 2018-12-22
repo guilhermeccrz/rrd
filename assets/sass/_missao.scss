@@ -12,6 +12,13 @@
   background-position: bottom left;
 }
 
+.bg-produtoseservicos {
+  background-image:url('../img/produtoseservicos/bg-produtos.png') ;
+  padding-bottom: 37em!important;
+  background-repeat: no-repeat;
+  background-position: bottom left;
+}
+
 .bg-rrdnomundo {
   background-image:url('../img/rrdnomundo/bg.png') ;
   padding-bottom: 37em!important;
@@ -26,6 +33,14 @@
 
 .bg-bola-maior {
       background: url('../img/rrdnomundo/bola.png') no-repeat scroll 10px 700px;
+}
+
+.bg-bola-right {
+        width: 100%;
+    position: absolute;
+    z-index: 4;
+    min-height: 1000px;
+    background: url('../img/produtoseservicos/bola.png') no-repeat right 738px;
 }
 
  .carr-interna-01 {
