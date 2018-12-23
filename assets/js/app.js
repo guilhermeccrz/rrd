@@ -144,6 +144,40 @@ $(document).ready(function(){
     $('#myVideo')[0].play();
     $('#myVideo').addClass('active');
   });
+
+  $('select.escolha').on('change', function(){
+    $('.form-escolha').hide();
+    $('#'+this.value).show();
+  });
+
+
+  var globalInteresseArray = [];
+
+  $('span.interesse-compra').click(function(){
+    var valueOf = $(this).html();
+    var arrayInteresse = $('#input-interesse-compra').attr('value');
+
+    if($(this).hasClass('active')){
+      $(this).removeClass('active');
+
+      var index = globalInteresseArray.indexOf(valueOf);
+      if (index > -1) {
+       globalInteresseArray.splice(index, 1);
+      }
+
+
+    } else {
+      $(this).addClass('active');
+      globalInteresseArray.push(valueOf);
+
+    }
+
+    $('#input-interesse-compra').attr('value',globalInteresseArray);
+
+
+
+  });
+
 });
 
 

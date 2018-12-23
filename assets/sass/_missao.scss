@@ -19,8 +19,29 @@
   background-position: bottom left;
 }
 
+.bg-diversidade {
+  background-image:url('../img/carreiras/diversidade/bg-diversidade.png') ;
+  padding-bottom: 37em!important;
+  background-repeat: no-repeat;
+  background-position: bottom left;
+}
+
 .bg-rrdnomundo {
   background-image:url('../img/rrdnomundo/bg.png') ;
+  padding-bottom: 37em!important;
+  background-repeat: no-repeat;
+  background-position: bottom left;
+}
+
+.bg-trabalheconosco {
+  background-image:url('../img/trabalheconosco/bg-trabalheconosco.png') ;
+  padding-bottom: 37em!important;
+  background-repeat: no-repeat;
+  background-position: bottom left;
+}
+
+.bg-faleconosco {
+  background-image:url('../img/faleconosco/bg-faleconosco.png') ;
   padding-bottom: 37em!important;
   background-repeat: no-repeat;
   background-position: bottom left;
@@ -41,6 +62,39 @@
     z-index: 4;
     min-height: 1000px;
     background: url('../img/produtoseservicos/bola.png') no-repeat right 738px;
+}
+
+
+.bg-bola-topo {
+        width: 100%;
+    position: absolute;
+    z-index: 4;
+    min-height: 1000px;
+    background: url('../img/produtoseservicos/bola.png') no-repeat 900px 0px;
+}
+
+.bg-bola-faleconosco {
+          width: 100%;
+    position: absolute;
+    z-index: 4;
+    min-height: 1000px;
+    background: url('../img/faleconosco/bg.png') no-repeat 900px 0px;
+}
+
+.bg-bola-blog {
+    width: 100%;
+    position: absolute;
+    z-index: 4;
+    min-height: 1000px;
+    background: url('../img/blog/bola.png') no-repeat 87px 503px;
+}
+
+.bg-bola-blog-interna {
+    width: 100%;
+    position: absolute;
+    z-index: 4;
+    min-height: 1000px;
+        background: url('../img/blog/interna/bola.png') no-repeat 78px 229px;
 }
 
  .carr-interna-01 {
