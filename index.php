@@ -25,7 +25,7 @@ include 'includes/header.php';  // Works.
 				<div class="control"></div>
 				<div class="wrap">
 					<div>
-						<a href="editorial.php" class="arrow-right-after">Editorial</a>
+						<a href="editorial.php" class="arrow-right-after one-line">Editorial</a>
 					</div>
 					<div>
 						<a href="impressao.php" class="arrow-right-after">Impressão segura</a>
@@ -43,7 +43,7 @@ include 'includes/header.php';  // Works.
 						<a href="formularios.php" class="arrow-right-after">Formulários Bobinas</a>
 					</div>
 					<div>
-						<a href="print.php" class="arrow-right-after">Print Management</a>
+						<a href="print.php" class="arrow-right-after">Print Manag..</a>
 					</div>
 				</div>
 			</div>

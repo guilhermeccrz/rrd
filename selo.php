@@ -60,12 +60,6 @@ desleal de empresas irregulares e garantir a segurança</p>
 
 
 
-<?php
-	include 'includes/footer.php';  // Works.
-?>
-
-	</div>
-
 
 
 <?php

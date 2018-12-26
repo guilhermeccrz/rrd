@@ -308,6 +308,29 @@
  // xl: 1490px
 @media screen and (min-width: 993px) and (max-width: 1489px)  {
 
+  .end-info {
+    font-size: 18px;
+    color: #202B4B;
+    padding-right: 150px;
+    float: right;
+    width: 100%;
+    margin-top: 40px;
+}
+
+  .session-single-02 .left-info.left-info-blog .category {
+    color: #fff;
+    float: right;
+    margin-right: 0em;
+    margin-top: 55px;
+}
+
+  .form-search-blog {
+    clear: both;
+    top: -3em;
+    position: relative;
+    max-width: 570px;
+}
+
   .session-single-01.selo .container .texto {
     float: none;
     max-width: 400px;

@@ -10,7 +10,7 @@ include 'includes/header.php';  // Works.
 		<div class="bg-bola bg-bola-right"></div>
 			<div class="container container-title container-info">
 				<div class="left-info">
-					<h1 class="menor">Impressão <br>Segura/ <br> Dados <br>variáveis</h1>
+					<h1 class="menor">Formulários e Bobinas</h1>
 					<h2></h2>
 					<p>Personalização dos itens com confidencialidade e segurança.</p>
 
