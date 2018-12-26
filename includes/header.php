@@ -35,12 +35,13 @@
 				<li><a href="missao.php">Quem somos</a>
 				<ul>
 						<li><a href="missao.php">Missão, Visão e Valores</a></li>
+						<li><a href="missao.php">Princípios Éticos</a></li>
 						<li><a href="rrdnobrasil.php">RRD no Brasil</a></li>
-						<li><a href="rrdnomundo.php">RRD no Mundo</a></li>
+						<li><a href="principios.php">RRD no Mundo</a></li>
 					</ul>
 
 				</li>
-				<li><a href="">Qualidade</a>
+				<li><a href="certificacoes.php">Qualidade</a>
 					<ul>
 						<li><a href="certificacoes.php">Certificações</a></li>
 						<li><a href="ehs.php">EHS</a></li>
@@ -48,20 +49,25 @@
 						<li><a href="premio.php">Prêmios</a></li>
 					</ul>
 				</li>
-				<li><a href="">Produtos e Serviços</a>
+				<li><a href="editorial.php">Produtos e Serviços</a>
 					<ul>
-						<li><a href="">Editorial</a></li>
-						<li><a href="">Impressão Segura - Dados Variáveis</a></li>
-						<li><a href="">Etiquetas e rótulos</a></li>
-						<li><a href="">Promocional e Comercial</a></li>
-						<li><a href="">Software de Impressão <br> de Etiquetas Moore</a></li>
-						<li><a href="">Formulários e Bobinas</a></li>
-						<li><a href="">Editorial</a></li>
+						<li><a href="editorial.php">Editorial</a></li>
+						<li><a href="impressao.php">Impressão Segura - Dados Variáveis</a></li>
+						<li><a href="etiquetas.php">Etiquetas e rótulos</a></li>
+						<li><a href="promocional.php">Promocional e Comercial</a></li>
+						<li><a href="software.php">Software de Impressão <br> de Etiquetas Moore</a></li>
+						<li><a href="formularios.php">Formulários e Bobinas</a></li>
+						<li><a href="print.php">Print Management</a></li>
 					</ul>
 				</li>
-				<li><a href="">Blog</a></li>
-				<li><a href="">Carreiras</a></li>
-				<li><a href="">Fale Conosco</a></li>
+				<li><a href="blog.php">Blog</a></li>
+				<li><a href="diversidade.php">Carreiras</a>
+					<ul>
+						<li><a href="diversidade.php">Diversidade e Inclusão</a></li>
+						<li><a href="trabalheconosco.php">Trabalhe Conosco</a></li>
+					</ul>
+				</li>
+				<li><a href="faleconosco.php">Fale Conosco</a></li>
 			</ul>
 		</nav>
 

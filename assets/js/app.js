@@ -145,6 +145,11 @@ $(document).ready(function(){
     $('#myVideo').addClass('active');
   });
 
+   $('.playMovie1').click(function () {
+    $('#myVideo')[0].play();
+    $('#myVideo').addClass('active');
+  });
+
   $('select.escolha').on('change', function(){
     $('.form-escolha').hide();
     $('#'+this.value).show();

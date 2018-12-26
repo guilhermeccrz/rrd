@@ -7,13 +7,13 @@ include 'includes/header.php';  // Works.
 		<div class="light" style="background: url('public/assets/img/home/banner.jpg') no-repeat top center; background-size: cover;">
 			<div class="container dark">
 				<h1>Como fisgar o target pela capa</h1>
-				<a href="" class="arrow-right">Saiba mais</a>
+				<a href="blog-interna.php" class="arrow-right">Saiba mais</a>
 			</div>
 		</div>
 		<div class="dark" style="background: url('public/assets/img/home/banner2.jpg') no-repeat top center; background-size: cover;">
 			<div class="container light">
 				<h1>Como fisgar o target pela capa</h1>
-				<a href="" class="arrow-right">Saiba mais</a>
+				<a href="blog-interna.php" class="arrow-right">Saiba mais</a>
 			</div>
 		</div>
 	</div>
@@ -25,22 +25,25 @@ include 'includes/header.php';  // Works.
 				<div class="control"></div>
 				<div class="wrap">
 					<div>
-						<a href="" class="arrow-right-after">Dados Variáveis</a>
+						<a href="editorial.php" class="arrow-right-after">Editorial</a>
 					</div>
 					<div>
-						<a href="" class="arrow-right-after one-line">Editorial</a>
+						<a href="impressao.php" class="arrow-right-after">Impressão segura</a>
 					</div>
 					<div>
-						<a href="" class="arrow-right-after">Etiquetas Rótulos</a>
+						<a href="etiquetas.php" class="arrow-right-after">Etiquetas Rótulos</a>
 					</div>
 					<div>
-						<a href="" class="arrow-right-after">Testes Variaveis</a>
+						<a href="promocional.php" class="arrow-right-after">Promocional Comercial</a>
 					</div>
 					<div>
-						<a href="" class="arrow-right-after one-line">Testes</a>
+						<a href="software.php" class="arrow-right-after">Software Impressão</a>
 					</div>
 					<div>
-						<a href="" class="arrow-right-after">Testes Rotulos</a>
+						<a href="formularios.php" class="arrow-right-after">Formulários Bobinas</a>
+					</div>
+					<div>
+						<a href="print.php" class="arrow-right-after">Print Management</a>
 					</div>
 				</div>
 			</div>
@@ -54,7 +57,7 @@ include 'includes/header.php';  // Works.
 							<h4>Produtos</h4>
 							<h3>Livro Cristianismo Puro E Simples</h3>
 							<span>CS Lewis</span>
-							<a href="">Saiba mais</a>
+							<a href="blog-interna.php">Saiba mais</a>
 						</div>
 					</div>
 					<div class="wrap-custom">
@@ -63,7 +66,7 @@ include 'includes/header.php';  // Works.
 							<h4>Produtos</h4>
 							<h3>Livro da Nova era do Novo Teste</h3>
 							<span>CS Teste</span>
-							<a href="">Saiba mais</a>
+							<a href="blog-interna.php">Saiba mais</a>
 						</div>
 					</div>
 				</div>
@@ -83,15 +86,12 @@ include 'includes/header.php';  // Works.
 					<div class="mini-wrap">
 						<div class="info">
 							<h2><span>Selo</span> Água</h2>
-							<a class="arrow-right-circle" id="playMovie1" href="#video">Conheça esse projeto que vai garantir a qualidade d'gua que você estará
+							<a class="arrow-right-circle" id="playMovie1" href="selo.php">Conheça esse projeto que vai garantir a qualidade d'gua que você estará
 								consumindo.</a>
 						</div>
 						<div class="videoimg"> 
 							<img src="public/assets/img/home/imgmarrom.png" />
-							<video id="myVideo" controls  width="320" height="176">
-								<source src="public/assets/video/video.mp4" type="video/mp4">
-								Your browser does not support HTML5 video.
-							</video>
+							
 						</div>
 					</div>
 				</div>
@@ -101,7 +101,7 @@ include 'includes/header.php';  // Works.
 	<div class="session-blog">
 		<div class="container">
 			<h2 class="title">Blog</h2>
-			<a href="" class="arrow-right link">Ver blog</a>
+			<a href="blog.php" class="arrow-right link">Ver blog</a>
 		</div>
 		<div class="custom-container">
 			<div class="macro-wrap container">
@@ -110,7 +110,7 @@ include 'includes/header.php';  // Works.
 			<div class="carr-home-05">
 				<div>
 					<div class="mini-wrap">
-						<a href="">
+						<a href="blog-interna.php">
 							<img src="public/assets/img/home/card1.png" width="330" height="210">
 							<div class="info">
 								<h3>Materiais impressos para alavancar sua promoção</h3>
@@ -121,7 +121,7 @@ include 'includes/header.php';  // Works.
 				</div>
 				<div>
 					<div class="mini-wrap">
-						<a href="">
+						<a href="blog-interna.php">
 							<img src="public/assets/img/home/card2.png" width="330" height="210">
 							<div class="info">
 								<h3>Materiais impressos para alavancar sua promoção</h3>
@@ -132,7 +132,7 @@ include 'includes/header.php';  // Works.
 				</div>
 				<div>
 					<div class="mini-wrap">
-						<a href="">
+						<a href="blog-interna.php">
 							<img src="public/assets/img/home/card3.png" width="330" height="210">
 							<div class="info">
 								<h3>Materiais impressos para alavancar sua promoção</h3>
@@ -143,7 +143,7 @@ include 'includes/header.php';  // Works.
 				</div>
 				<div>
 					<div class="mini-wrap">
-						<a href="">
+						<a href="blog-interna.php">
 							<img src="public/assets/img/home/card4.png" width="330" height="210">
 							<div class="info">
 								<h3>Materiais impressos para alavancar sua promoção</h3>
@@ -154,7 +154,7 @@ include 'includes/header.php';  // Works.
 				</div>
 				<div>
 					<div class="mini-wrap">
-						<a href="">
+						<a href="blog-interna.php">
 							<img src="public/assets/img/home/card1.png" width="330" height="210">
 							<div class="info">
 								<h3>Materiais impressos para alavancar sua promoção</h3>
@@ -165,7 +165,7 @@ include 'includes/header.php';  // Works.
 				</div>
 				<div>
 					<div class="mini-wrap">
-						<a href="">
+						<a href="blog-interna.php">
 							<img src="public/assets/img/home/card2.png" width="330" height="210">
 							<div class="info">
 								<h3>Materiais impressos para alavancar sua promoção</h3>
@@ -190,7 +190,7 @@ include 'includes/header.php';  // Works.
 				responsável pela impressão de bilhões de catálogos por ano e ainda atende as companhias mais importantes de
 				catálogos no mundo. Além disso, opera um dos maiores arquivos de documentos eletrônicos da Europa, com bilhões de
 				dados, que atende milhões de solicitações para uma organização de serviços financeiros mundialmente conhecida.
-				<a href="" class="arrow-right">Saiba mais</a>
+				<a href="rrdnomundo.php" class="arrow-right">Saiba mais</a>
 			</p>
 		</div>
 	</div>
@@ -201,7 +201,7 @@ include 'includes/header.php';  // Works.
 			<p class="text-conecta">PÚBLICO- ALVO COM UMA GAMA</p>
 			<p class="text-conecta">COMPLETA DE SERVIÇOS E TECNOLOGIA INTEGRADOS</p>
 		</div>
-		<a href="" class="arrow-right">Clique aqui e fale conosco</a>
+		<a href="faleconosco.php" class="arrow-right">Clique aqui e fale conosco</a>
 	</div>
 
 <?php

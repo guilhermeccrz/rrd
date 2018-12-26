@@ -1,3 +1,145 @@
+
+.bg-bola-agua {
+  margin-bottom: 160px;
+  h3 {
+    font-size: 60px;
+    color: #202B4B;
+    font-weight: bold;
+  }
+
+  p {
+     font-size: 18px;
+    color: #202B4B;
+  }
+
+  .left-txt {
+    float: left;
+    width: 600px;
+    clear: both;
+  }
+
+  .right-txt {
+    float: right;
+     width: 600px;
+     clear: both;
+  }
+}
+
+
+.bg-bola-selo-2 {
+   position: relative;
+  h4 {
+    color: #202B4B;
+    font-size: 153px;
+    font-weight: bold;
+    position: relative;
+    margin-top: -2em;
+
+    span {
+        font-size: 100px;
+        position: relative;
+        top: -.8em;
+    }
+  }
+
+  .link {
+    position: absolute;
+    left: 0;
+    bottom: 25em;
+
+    a {
+      display: block;
+      float: none!important;
+      margin: 20px 0;
+      font-size: 18px;
+      text-decoration: none!important;
+    }
+  }
+}
+
+.session-single-01.selo {
+
+  .container {
+      h1 {
+        font-size: 370px;
+        font-weight: bold;
+        float: left;
+        color: #fff;
+
+        &.second {
+          float: right;
+          position: relative;
+          margin-top: -1em;
+        }
+      }
+
+      h2 {
+        font-size: 370px;
+        font-weight: bold;
+        float: left;
+        color: #fff;
+      }
+
+      a {
+        float: left;
+      }
+
+      .texto {
+        float: right;
+        max-width: 400px;
+        margin-top: 80px;
+        padding-left: 45px;
+        &.arrow-right-circle::before {
+
+        }
+      }
+
+      .video {
+         top: -8em;
+         left: -3.3em;
+         cursor: pointer;
+         position: relative;
+         z-index: 5;
+         float:left;
+         overflow: hidden;
+        img {
+          float: left;
+          width: 100%;
+          position: relative;
+          z-index: 2;
+
+        }
+
+        video {
+          width: 107%;
+          position: absolute;
+          top: 0;
+          left: 0;
+          z-index: 1;
+
+          &.active {
+            z-index: 5;
+          }
+        }
+      }
+
+
+     
+  }
+ 
+}
+
+
+.bg-verde {
+  background-color: #A4DDE4!important;
+}
+
+
+.bg-azul {
+  background-color: #EAF8FF!important;
+}
+
+
 .bg-missao {
   background-image:url('../img/interna/bg-missao.png') ;
   padding-bottom: 37em!important;
@@ -97,6 +239,25 @@
         background: url('../img/blog/interna/bola.png') no-repeat 78px 229px;
 }
 
+.bg-bola-selo {
+      width: 100%;
+ 
+    z-index: 4;
+    min-height: 1000px;
+        background: url('../img/selo/bg.png') no-repeat top right;
+}
+
+
+
+.bg-bola-selo-2 {
+      width: 100%;
+ 
+    z-index: 4;
+    min-height: 1000px;
+        background: url('../img/selo/selobgagua.png') no-repeat top right;
+}
+
+
  .carr-interna-01 {
     position: relative;
 
@@ -146,6 +307,18 @@
  // lg: 992px,
  // xl: 1490px
 @media screen and (min-width: 993px) and (max-width: 1489px)  {
+
+  .session-single-01.selo .container .texto {
+    float: none;
+    max-width: 400px;
+    margin-top: 145px;
+    padding-left: 45px;
+    position: relative;
+    top: 11px;
+    right: 58px;
+}
+
+
   .session-single-01 {
     background-size: 100%!important;
     padding-bottom: 20em!important;
@@ -180,6 +353,77 @@
 
 
 @media screen and (min-width: 0px) and (max-width: 992px)  {
+.session-single-01.selo .container .texto {
+    float: none;
+    max-width: 400px;
+    margin-top: 145px;
+    padding-left: 45px;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    max-width: 299px;
+}
+.session-single-01.selo .container h1 {
+    font-size: 178px;
+    font-weight: bold;
+    float: left;
+    color: #fff;
+}
+
+.session-single-01.selo .container .video {
+    top: -4em;
+     left: 0em;
+    cursor: pointer;
+    position: relative;
+    z-index: 5;
+    float: left;
+    overflow: hidden;
+}
+
+.session-single-01.selo .container h1.second {
+float: right;
+    position: relative;
+    margin-top: -1.2em;
+    font-size: 98px;
+}
+
+.bg-bola-selo {
+  background: none;
+  min-height: 100px;
+}
+
+.bg-bola-agua {
+  * {
+    width: 100%!important;
+  }
+}
+
+.bg-bola-selo-2 h4 {
+  background: none;
+    color: #202B4B;
+    font-size: 65px;
+    font-weight: bold;
+    position: relative;
+    margin-top: 0em;
+
+    span {
+       font-size: 25px!important;
+    }
+}
+
+.bg-bola-selo-2 h4 span {
+    font-size: 100px;
+    position: relative;
+    top: -1.8em;
+}
+
+.bg-bola-selo-2 .link {
+    position: relative;
+    left: 0;
+    bottom: 0em;
+}
+
+
   .session-single-01 {
     background-size: 100%!important;
     padding-bottom: 6em!important;
