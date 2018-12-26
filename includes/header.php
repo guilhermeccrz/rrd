@@ -35,9 +35,9 @@
 				<li><a href="missao.php">Quem somos</a>
 				<ul>
 						<li><a href="missao.php">Missão, Visão e Valores</a></li>
-						<li><a href="missao.php">Princípios Éticos</a></li>
+						<li><a href="principios.php">Princípios Éticos</a></li>
 						<li><a href="rrdnobrasil.php">RRD no Brasil</a></li>
-						<li><a href="principios.php">RRD no Mundo</a></li>
+						<li><a href="rrdnomundo.php">RRD no Mundo</a></li>
 					</ul>
 
 				</li>
