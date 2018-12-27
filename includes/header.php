@@ -32,7 +32,7 @@
 
 		<nav>
 			<ul class="navigation">
-				<li><a href="missao.php">Quem somos</a>
+				<li><a href="javascript:void(0);" class="clickmnu">Quem somos</a>
 				<ul>
 						<li><a href="missao.php">Missão, Visão e Valores</a></li>
 						<li><a href="principios.php">Princípios Éticos</a></li>
@@ -41,7 +41,7 @@
 					</ul>
 
 				</li>
-				<li><a href="certificacoes.php">Qualidade</a>
+				<li><a href="javascript:void(0);" class="clickmnu">Qualidade</a>
 					<ul>
 						<li><a href="certificacoes.php">Certificações</a></li>
 						<li><a href="ehs.php">EHS</a></li>
@@ -49,7 +49,7 @@
 						<li><a href="premio.php">Prêmios</a></li>
 					</ul>
 				</li>
-				<li><a href="editorial.php">Produtos e Serviços</a>
+				<li><a href="javascript:void(0);" class="clickmnu">Produtos e Serviços</a>
 					<ul>
 						<li><a href="editorial.php">Editorial</a></li>
 						<li><a href="impressao.php">Impressão Segura - Dados Variáveis</a></li>
@@ -60,15 +60,21 @@
 						<li><a href="print.php">Print Management</a></li>
 					</ul>
 				</li>
+				<li><a href="selo.php">Selo Agua</a></li>
 				<li><a href="blog.php">Blog</a></li>
-				<li><a href="diversidade.php">Carreiras</a>
+				<li><a href="javascript:void(0);" class="clickmnu">Carreiras</a>
 					<ul>
 						<li><a href="diversidade.php">Diversidade e Inclusão</a></li>
 						<li><a href="trabalheconosco.php">Trabalhe Conosco</a></li>
 					</ul>
 				</li>
 				<li><a href="faleconosco.php">Fale Conosco</a></li>
+				
 			</ul>
+	<form class="form-mobo">
+				<input type="type" style="width: 70%;" placeholder="O que você deseja buscar?" name="">
+				<input type="submit" name="" value=" ">
+			</form>
 		</nav>
 
 		<?php 

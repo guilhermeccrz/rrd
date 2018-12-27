@@ -161,6 +161,24 @@ header {
           }
         }
 
+        &.aberto {
+           background: #F7F7F7;
+           ul {
+            opacity: 1;
+          }
+        }
+        a {
+          font-size: 15px;
+          color: #202B4B;
+
+          &:hover {
+            font-weight: 400!important;
+            text-decoration: none;
+
+
+          }
+        }
+
         ul {
           opacity: 0;
           position: absolute;
@@ -175,6 +193,10 @@ header {
           padding-bottom: 20px;
           box-shadow: 10px 10px 51px -31px rgba(0,0,0,0.5);
 
+          &.aberto {
+            opacity: 1!important;
+          }
+
           li {
             display: block;
             padding:10px 0;
@@ -186,6 +208,34 @@ header {
     }
   }
 
+.form-mobo {
+    min-width: 40%;
+    max-width: 100%;
+    /* position: absolute; */
+    top: 66px;
+    left: 0px;
+    z-index: 99999;
+    padding: 20px 20px;
+    display: none;
+        input[type=submit] {
+    
+         width: 30px;
+      height: 30px;
+      background: url('../img/home/busca.png');
+      background-size: 100%;
+      display: inline-block;
+      float: right;
+      margin-right: 0px;
+      position: relative;
+      z-index: 2;
+      border: 0px;
+      cursor: pointer;
+      }
+
+      input[type=text]{
+        width: 85%;
+      }
+}
   .search-box {
     position: absolute;
     right: 0px;
@@ -263,6 +313,7 @@ header {
 @media screen and (min-width: 993px) and (max-width: 1489px)  {
   header {
     nav {
+
       ul.navigation {
         padding: 0 10px;
         li {
@@ -284,9 +335,30 @@ header {
   }
 }
 
-
+@media screen and (min-width:992px) and (max-width: 9992px)  {
+  header {
+   nav, .breadcrumb-x, .sidebar {
+    transition:none!important;
+     *{
+       transition:none!important;
+     }
+     
+   } 
+  }
+  header nav.opened {
+       margin-left: 0!important;
+  }
+   header nav {
+    transition:none!important;
+       margin-left: 0!important;
+  }
+}
 
 @media screen and (min-width: 0px) and (max-width: 992px)  {
+
+  .form-mobo  {
+    display: block!important;
+  }
   .breadcrumb-x {
     display: none;
   }

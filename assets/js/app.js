@@ -155,6 +155,14 @@ $(document).ready(function(){
     $('#'+this.value).show();
   });
 
+  $('.clickmnu').click(function(){
+    $('nav ul li').removeClass('aberto');
+    $(this).parent('li').addClass('aberto');
+  });
+
+  $('.btn-icon').click(function(){
+    $('.search-box').addClass('opened');
+  });
 
   var globalInteresseArray = [];
 
