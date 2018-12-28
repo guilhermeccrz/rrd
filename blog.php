@@ -141,6 +141,13 @@ include 'includes/header.php';  // Works.
 		</div>
 	</div>
 
+    <script type="text/javascript">
+        
+        $(document).ready(function(){
+            $('.sidebar, .search-box').addClass('dark');
+        });
+    </script>
+
 <?php
 include 'includes/footer.php';  // Works.
 ?>

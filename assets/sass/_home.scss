@@ -620,7 +620,8 @@ div.carr-home-03 {
 }
 
  div.carr-home-04 {
-      margin: 0px auto 170px 0;
+      margin: 0px auto 0px 0;
+          padding: 240px 0 0px 0;
   .mini-wrap-control {
     width: 100%;
     bottom: 1em!important;
@@ -629,6 +630,17 @@ div.carr-home-03 {
   .mini-wrap {
     width: 95%;
   }
+ }
+
+ .carr-home-05 div .mini-wrap, .carr-home-06 div .mini-wrap {
+    max-width: 60%;
+    margin: 0 auto;
+    display: block;
+
+    img {
+      width: 100%;
+    }
+
  }
 
   div.session-blog {

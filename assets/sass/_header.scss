@@ -147,6 +147,7 @@ header {
            background: #F7F7F7;
            ul {
             opacity: 1;
+            display: block;
           }
         }
         a {
@@ -165,6 +166,7 @@ header {
            background: #F7F7F7;
            ul {
             opacity: 1;
+            display: block;
           }
         }
         a {
@@ -181,6 +183,7 @@ header {
 
         ul {
           opacity: 0;
+          display: none;
           position: absolute;
           transition-duration:.2s;
           z-index: 3;
@@ -351,6 +354,18 @@ header {
    header nav {
     transition:none!important;
        margin-left: 0!important;
+  }
+
+  header .btn-nav.opened .openxxx {
+    display: block!important;
+  }
+
+  header .btn-nav.opened .closex {
+    display: none!important;
+  }
+
+  header .btn-nav {
+    cursor:none!important;
   }
 }
 

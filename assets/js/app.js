@@ -160,9 +160,7 @@ $(document).ready(function(){
     $(this).parent('li').addClass('aberto');
   });
 
-  $('.btn-icon').click(function(){
-    $('.search-box').addClass('opened');
-  });
+
 
   var globalInteresseArray = [];
 
