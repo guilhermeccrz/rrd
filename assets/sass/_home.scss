@@ -1,3 +1,4 @@
+
 div.carr-home-01 {
   height: 752px;
 
@@ -244,7 +245,7 @@ div.carr-home-03 {
 
 .carr-home-04 {
   width: 100%;
-  margin: 0px auto 370px 0;
+  margin: 0px auto 70px 0;
   overflow: hidden;
   padding: 240px 0 100px 0;
   position: relative;
@@ -395,7 +396,7 @@ div.carr-home-03 {
 }
 
 
-.carr-home-05 {
+.carr-home-05, .carr-home-06 {
   width: 100%;
   position: relative;
   float: left;
@@ -511,7 +512,7 @@ div.carr-home-03 {
   display: block;
   right: 2.5em;
   top: 8em;
-  z-index: 3;
+  z-index: 4;
 
   div {
     padding-top: 2em;
@@ -619,7 +620,8 @@ div.carr-home-03 {
 }
 
  div.carr-home-04 {
-      margin: 0px auto 170px 0;
+      margin: 0px auto 0px 0;
+          padding: 240px 0 0px 0;
   .mini-wrap-control {
     width: 100%;
     bottom: 1em!important;
@@ -628,6 +630,17 @@ div.carr-home-03 {
   .mini-wrap {
     width: 95%;
   }
+ }
+
+ .carr-home-05 div .mini-wrap, .carr-home-06 div .mini-wrap {
+    max-width: 92%;
+    margin: 0 auto;
+    display: block;
+
+    img {
+      width: 100%;
+    }
+
  }
 
   div.session-blog {

@@ -7,12 +7,12 @@
 				</div>
 				<div class="mini-contato">
 					<ul>
-						<li><a href="">Home</a></li>
-						<li><a href="">RH/Carreiras</a></li>
-						<li><a href="">E-Visit</a></li>
-						<li><a href="">Politica e Privacidade</a></li>
-						<li><a href="">Blog</a></li>
-						<li><a href="">Contato</a></li>
+						<li><a href="index.php">Home</a></li>
+						<li><a href="trabalheconosco.php">RH/Carreiras</a></li>
+						<li><a href="faleconosco.php">E-Visit</a></li>
+						<li><a href="politica.php">Politica e Privacidade</a></li>
+						<li><a href="blog.php">Blog</a></li>
+						<li><a href="faleconosco.php">Contato</a></li>
 					</ul>
 				</div>
 				<div class="news">

@@ -18,6 +18,8 @@
 
 <body>
 
+
+
 	<header>
 		<h1><a href="/rrd/"><img src="public/assets/img/home/logo.png" width="205" height="68"></a></h1>
 
@@ -32,15 +34,16 @@
 
 		<nav>
 			<ul class="navigation">
-				<li><a href="missao.php">Quem somos</a>
+				<li><a href="javascript:void(0);" class="clickmnu">Quem somos</a>
 				<ul>
 						<li><a href="missao.php">Missão, Visão e Valores</a></li>
+						<li><a href="principios.php">Princípios Éticos</a></li>
 						<li><a href="rrdnobrasil.php">RRD no Brasil</a></li>
 						<li><a href="rrdnomundo.php">RRD no Mundo</a></li>
 					</ul>
 
 				</li>
-				<li><a href="">Qualidade</a>
+				<li><a href="javascript:void(0);" class="clickmnu">Qualidade</a>
 					<ul>
 						<li><a href="certificacoes.php">Certificações</a></li>
 						<li><a href="ehs.php">EHS</a></li>
@@ -48,21 +51,32 @@
 						<li><a href="premio.php">Prêmios</a></li>
 					</ul>
 				</li>
-				<li><a href="">Produtos e Serviços</a>
+				<li><a href="javascript:void(0);" class="clickmnu">Produtos e Serviços</a>
 					<ul>
-						<li><a href="">Editorial</a></li>
-						<li><a href="">Impressão Segura - Dados Variáveis</a></li>
-						<li><a href="">Etiquetas e rótulos</a></li>
-						<li><a href="">Promocional e Comercial</a></li>
-						<li><a href="">Software de Impressão <br> de Etiquetas Moore</a></li>
-						<li><a href="">Formulários e Bobinas</a></li>
-						<li><a href="">Editorial</a></li>
+						<li><a href="editorial.php">Editorial</a></li>
+						<li><a href="impressao.php">Impressão Segura - Dados Variáveis</a></li>
+						<li><a href="etiquetas.php">Etiquetas e rótulos</a></li>
+						<li><a href="promocional.php">Promocional e Comercial</a></li>
+						<li><a href="software.php">Software de Impressão <br> de Etiquetas Moore</a></li>
+						<li><a href="formularios.php">Formulários e Bobinas</a></li>
+						<li><a href="print.php">Print Management</a></li>
 					</ul>
 				</li>
-				<li><a href="">Blog</a></li>
-				<li><a href="">Carreiras</a></li>
-				<li><a href="">Fale Conosco</a></li>
+				<li><a href="selo.php">Selo Agua</a></li>
+				<li><a href="blog.php">Blog</a></li>
+				<li><a href="javascript:void(0);" class="clickmnu">Carreiras</a>
+					<ul>
+						<li><a href="diversidade.php">Diversidade e Inclusão</a></li>
+						<li><a href="trabalheconosco.php">Trabalhe Conosco</a></li>
+					</ul>
+				</li>
+				<li><a href="faleconosco.php">Fale Conosco</a></li>
+				
 			</ul>
+	<form class="form-mobo">
+				<input type="type" style="width: 70%;" placeholder="O que você deseja buscar?" name="">
+				<input type="submit" name="" value=" ">
+			</form>
 		</nav>
 
 		<?php 
@@ -79,7 +93,7 @@
 			<form>
 				<div class="container-icon"><input type="submit" class="btn-icon" name="" value=" "></div>
 				<div class="form-search">
-					<input type="text" placeholder="O que você procura?" name="">
+					<input type="text" placeholder="Busque aqui.." name="">
 				</div>
 			</form>
 		</div>
