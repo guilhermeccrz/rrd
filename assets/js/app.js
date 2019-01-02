@@ -81,7 +81,18 @@ $(document).ready(function(){
     {
       breakpoint: 1489,
       settings: {
-        slidesToShow: 2,
+        slidesToShow: 4,
+        cssEase:'cubic-bezier(0.175, 0.885, 0.320, 1.275)',
+        appendArrows: '.session-blog .control',
+        arrows:true,
+        centerPadding: '5%',
+        infinite:false
+      }
+    },
+    {
+      breakpoint: 959,
+      settings: {
+         slidesToShow: 2,
         cssEase:'cubic-bezier(0.175, 0.885, 0.320, 1.275)',
         appendArrows: '.session-blog .control',
         arrows:true,

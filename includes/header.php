@@ -18,6 +18,8 @@
 
 <body>
 
+
+
 	<header>
 		<h1><a href="/rrd/"><img src="public/assets/img/home/logo.png" width="205" height="68"></a></h1>
 
@@ -91,7 +93,7 @@
 			<form>
 				<div class="container-icon"><input type="submit" class="btn-icon" name="" value=" "></div>
 				<div class="form-search">
-					<input type="text" placeholder="O que você procura?" name="">
+					<input type="text" placeholder="Busque aqui.." name="">
 				</div>
 			</form>
 		</div>

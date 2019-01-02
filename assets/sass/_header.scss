@@ -296,11 +296,13 @@ header {
       transition:$transition-style-01;
       z-index: 1;
       background-color:#fff;
+      max-width: 200px;
 
 
       input {
         border: none;
         font-size: 16px;
+        max-width: 100px;
       }
     }
   }
